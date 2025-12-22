@@ -19,220 +19,232 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="logot.png">
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
     <style>
         :root {
             --blue-accent: #00d4ff;
-            --card-bg: #1e252b; 
-            --flavor-bg: #2c343c;
-            --text-color: #ffffff;
             --promo-color: #ff00d4;
+            --bg-main: #0b0f13;
+            --card-bg: #161b22;
+            --out-of-stock-color: rgba(255, 255, 255, 0.15);
         }
 
-        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-
-        body {
-            margin: 0; padding: 0;
-            font-family: 'Montserrat', sans-serif;
-            background: #0d1217;
-            color: var(--text-color);
-            min-height: 100vh;
-            display: flex; flex-direction: column; align-items: center;
+        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin: 0; padding: 0; }
+        
+        body { 
+            background: var(--bg-main); 
+            color: #fff; font-family: 'Montserrat', sans-serif;
+            overflow-x: hidden; width: 100%;
         }
 
-        .container { width: 95%; max-width: 900px; padding: 40px 15px; text-align: center; }
+        #snow-container { position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 5; overflow: hidden; }
+        .snowflake { position: absolute; top: -20px; color: white; opacity: 0.2; pointer-events: none; }
 
-        header h1 {
-            font-size: clamp(2rem, 8vw, 3.2rem); font-weight: 900;
-            color: var(--blue-accent); text-transform: uppercase;
-            margin-bottom: 5px;
+        #hintBox {
+            position: fixed; top: -150px; left: 50%; transform: translateX(-50%);
+            width: 90%; max-width: 400px; background: rgba(255, 255, 255, 0.07);
+            backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+            padding: 18px; border-radius: 25px; border: 1px solid rgba(255, 255, 255, 0.1);
+            z-index: 2000; display: flex; align-items: center; justify-content: space-between;
         }
+
+        .container { width: 100%; max-width: 1200px; padding: 80px 15px 180px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 60px; }
+        header h1 { font-size: clamp(3.5rem, 12vw, 5.5rem); font-weight: 900; color: var(--blue-accent); text-transform: uppercase; letter-spacing: -4px; line-height: 0.8; }
+
+        #catalog-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 30px; }
 
         .catalog-item {
-            background: var(--card-bg);
-            border-radius: 28px;
-            padding: 35px 20px;
-            margin-bottom: 30px;
-            position: relative;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-            border: 1px solid rgba(255, 255, 255, 0.03);
+            background: var(--card-bg); border-radius: 35px; padding: 70px 25px 35px;
+            border: 1px solid rgba(255,255,255,0.03); position: relative;
+            text-align: center; opacity: 0; transform: translateY(50px);
         }
-
-        .item-title { font-size: 2rem; font-weight: 900; color: var(--blue-accent); margin-bottom: 8px; }
-        .specs { opacity: 0.6; font-weight: 600; margin-bottom: 20px; font-size: 1rem; }
-
-        .price-row { display: flex; align-items: center; justify-content: center; gap: 15px; margin-bottom: 30px; }
-        .old-price { text-decoration: line-through; opacity: 0.4; font-size: 1.2rem; font-weight: 700; }
-        .price-tag { 
-            background: var(--blue-accent); color: #000; 
-            padding: 8px 30px; border-radius: 12px; 
-            font-weight: 900; font-size: 1.5rem; 
-        }
-
-        .flavor-list {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 12px; list-style: none; padding: 0;
-        }
-
-        .flavor-list li {
-            background: var(--flavor-bg);
-            padding: 18px 22px; border-radius: 12px;
-            font-size: 1rem; font-weight: 700;
-            cursor: pointer; transition: 0.2s;
-            display: flex; align-items: center;
-            border: 1px solid transparent;
-        }
-
-        .flavor-list li.selected {
-            background: rgba(0, 212, 255, 0.1);
-            border-color: var(--blue-accent);
-        }
-
-        .flavor-list li.out-of-stock { opacity: 0.2; cursor: not-allowed; filter: grayscale(1); }
 
         .promo-badge {
-            background: var(--promo-color); color: white; padding: 5px 12px;
-            border-radius: 6px; font-weight: 900; font-size: 0.75rem;
-            position: absolute; top: 15px; right: 15px; text-decoration: none;
+            position: absolute; top: -15px; left: 50%; transform: translateX(-50%);
+            background: var(--promo-color); color: white; padding: 12px 28px;
+            border-radius: 50px; font-weight: 900; font-size: 0.8rem;
+            text-decoration: none; z-index: 10; white-space: nowrap;
         }
 
-        .stock-warning {
-            color: var(--blue-accent);
-            padding: 20px;
-            margin: 10px 0;
-            font-size: 0.9rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            opacity: 0.8;
+        .item-title { font-size: 2rem; font-weight: 900; margin-bottom: 5px; }
+        .specs { color: var(--blue-accent); font-weight: 700; opacity: 0.5; margin-bottom: 20px; font-size: 0.85rem; }
+
+        .price-box { margin-bottom: 25px; display: flex; flex-direction: column; align-items: center; }
+        .old-price { font-size: 0.95rem; font-weight: 700; color: rgba(255,255,255,0.3); text-decoration: line-through; margin-bottom: 4px; }
+        .price-tag { background: var(--blue-accent); color: #000; padding: 10px 30px; border-radius: 14px; font-weight: 900; font-size: 1.6rem; }
+
+        .flavor-list { width: 100%; list-style: none; display: flex; flex-direction: column; gap: 10px; }
+        
+        /* СТИЛЬ ДЛЯ КНОПОК ВКУСА */
+        .flavor-list li {
+            background: rgba(255,255,255,0.03); padding: 18px 20px; border-radius: 18px; 
+            font-weight: 700; cursor: pointer; display: flex; justify-content: space-between; 
+            border: 2px solid transparent; transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        /* КОГДА ВКУС ВЫБРАН */
+        .flavor-list li.selected { border-color: var(--blue-accent); background: rgba(0, 212, 255, 0.1); color: var(--blue-accent); }
+
+        /* КОГДА ВКУСА НЕТ (ТО ЧТО ТЫ ПРОСИЛ) */
+        .flavor-list li.out-of-stock {
+            background: rgba(255, 255, 255, 0.01);
+            color: var(--out-of-stock-color);
+            border-color: transparent;
+            text-decoration: line-through;
+            cursor: not-allowed;
+            pointer-events: none; /* Чтобы нельзя было кликнуть */
+            filter: grayscale(1) blur(0.5px);
         }
 
-        .cta-button {
-            display: inline-block;
-            width: 100%;
-            max-width: 400px;
-            background: var(--blue-accent);
-            color: #000;
-            text-decoration: none;
-            padding: 20px;
-            margin: 10px 0 60px 0;
-            border-radius: 16px;
-            font-weight: 900;
-            font-size: 1rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: all 0.3s ease;
-            box-shadow: 0 10px 25px rgba(0, 212, 255, 0.2);
+        .order-btn {
+            position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%) translateY(150px);
+            width: 92%; max-width: 480px; background: var(--blue-accent);
+            color: #000; padding: 22px 30px; border-radius: 30px;
+            display: flex; justify-content: space-between; align-items: center;
+            text-decoration: none; font-weight: 900; font-size: 1.1rem;
+            z-index: 3000; opacity: 0;
         }
 
-        .cta-button:active { transform: scale(0.97); }
-        .snowflake { position: fixed; top: -10px; color: white; z-index: 0; pointer-events: none; }
-        @media (max-width: 600px) { .flavor-list { grid-template-columns: 1fr; } }
+        .no-flavors { padding: 25px; color: #ffab00; font-weight: 800; border: 2px dashed rgba(255,171,0,0.2); border-radius: 25px; font-size: 0.9rem; }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <header data-aos="fade-down">
-        <h1>SMOKE KOSTA</h1>
-        <p style="opacity: 0.5; font-size: 0.7rem; letter-spacing: 3px; font-weight: 700; margin-bottom: 30px;">ЗИМНИЙ КАТАЛОГ</p>
-    </header>
-
-    <div id="catalog-container"></div>
-
-    <div class="stock-warning" data-aos="fade-up">
-        ⚡️ Вкусы разбирают быстро — успей забронировать свой 💨
-    </div>
-
-    <a href="https://t.me/smokemanagerQST" id="orderBtn" class="cta-button" data-aos="fade-up">
-        📲 Заказать в Telegram
-    </a>
+<div id="snow-container"></div>
+<div id="hintBox">
+    <p>💡 Нажми на вкус, чтобы добавить в заказ!</p>
+    <span onclick="hideHintManually()" style="cursor:pointer; font-weight:900; padding: 5px;">✕</span>
 </div>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<div class="container">
+    <header id="head-anim">
+        <h1>SMOKE<br>KOSTA</h1>
+    </header>
+    <div id="catalog-container"></div>
+</div>
+
+<a href="#" id="orderBtn" class="order-btn">
+    <span id="btnLabel">ВЫБЕРИТЕ ТОВАР</span>
+    <span id="totalPrice" style="background: rgba(0,0,0,0.1); padding: 7px 15px; border-radius: 10px;">0 тг</span>
+</a>
+
 <script>
+    gsap.registerPlugin(ScrollTrigger);
     let cart = [];
-    
-// Мягкий, "сочный" звук клика (как в крутых приложениях)
-    const clickSound = new Audio("https://www.soundjay.com/communication/sounds/digital-u-02.mp3");
-    clickSound.volume = 0.01; // Оптимальная громкость, чтобы не било по ушам
+
+    function hideHint() { gsap.to("#hintBox", { y: -200, opacity: 0, duration: 1, ease: "back.in(1.2)" }); }
+    function hideHintManually() { hideHint(); }
 
     async function init() {
         try {
             const res = await fetch('products.json');
             const data = await res.json();
             render(data);
-            AOS.init({ duration: 800, once: true, offset: 50 });
-        } catch (e) { console.error("Ошибка загрузки JSON", e); }
+            
+            gsap.from("#head-anim h1", { scale: 0.9, opacity: 0, duration: 1, ease: "power2.out" });
+
+            const hintTl = gsap.timeline();
+            hintTl.to("#hintBox", { top: "25px", duration: 1.2, ease: "elastic.out(1, 0.8)", delay: 1 })
+                  .to("#hintBox", { y: -200, opacity: 0, duration: 1, ease: "back.in(1.2)", delay: 4 });
+
+        } catch (e) { console.error(e); }
     }
 
     function render(products) {
         const root = document.getElementById('catalog-container');
-        root.innerHTML = products.map(p => {
-            const hasF = p.flavors && p.flavors.length > 0;
-            return `
-                <div class="catalog-item" data-aos="fade-up">
-                    ${p.promo ? `<a href="${p.promoLink}" class="promo-badge">${p.promo}</a>` : ''}
-                    <div class="item-title">${p.name}</div>
-                    <div class="specs">${p.specs}</div>
-                    <div class="price-row">
-                        ${p.oldPrice ? `<div class="old-price">${p.oldPrice} тг</div>` : ''}
-                        <div class="price-tag">${p.price} тг</div>
-                    </div>
-                    ${hasF ? `
-                        <ul class="flavor-list">
-                            ${p.flavors.map(f => `
-                                <li class="${f.stock ? '' : 'out-of-stock'}" 
-                                    onclick="pick('${p.name}', '${f.name}', this, ${f.stock})">
-                                    ${f.name} ${f.stock ? '' : ' (Нет)'}
-                                </li>
-                            `).join('')}
-                        </ul>
-                    ` : `
-                        <div style="padding: 20px; background: rgba(0,0,0,0.2); border-radius: 15px; opacity: 0.5; font-size: 0.9rem;">
-                            ⚠️ Вкусы временно отсутствуют
-                        </div>
-                    `}
+        root.innerHTML = products.map((p, pIdx) => `
+            <div class="catalog-item">
+                ${p.promo ? `<a href="${p.promoLink}" class="promo-badge">${p.promo}</a>` : ''}
+                <div class="item-title">${p.name}</div>
+                <div class="specs">${p.specs}</div>
+                <div class="price-box">
+                    ${p.oldPrice ? `<div class="old-price">${p.oldPrice} тг</div>` : ''}
+                    <div class="price-tag">${p.price} тг</div>
                 </div>
-            `;
-        }).join('');
+                ${p.flavors.length > 0 ? `
+                    <ul class="flavor-list">
+                        ${p.flavors.map(f => `
+                            <li class="${f.stock ? '' : 'out-of-stock'}" 
+                                onclick="pick('${p.name}', '${f.name}', '${p.price}', this, ${f.stock})">
+                                <span>${f.name}</span>
+                                <span style="opacity:0.3;">${f.stock ? '+' : '✕'}</span>
+                            </li>
+                        `).join('')}
+                    </ul>
+                ` : `<div class="no-flavors">⚠️ Вкусы временно отсутствуют</div>`}
+            </div>
+        `).join('');
+
+        gsap.to(".catalog-item", {
+            opacity: 1, y: 0, duration: 1, stagger: 0.1, ease: "power3.out",
+            scrollTrigger: { trigger: "#catalog-container", start: "top 90%" }
+        });
+
+        gsap.to(".promo-badge", {
+            scale: 1.08,
+            boxShadow: "0 15px 35px rgba(255, 0, 212, 0.7)",
+            duration: 0.8,
+            repeat: -1,
+            yoyo: true,
+            ease: "sine.inOut"
+        });
     }
 
-    function pick(pName, fName, el, stock) {
-        if (!stock) return;
+    function pick(pName, fName, priceStr, el, stock) {
+        if (!stock) return; // Блокировка выбора, если stock: false
         
-        // ВОСПРОИЗВОДИМ ЗВУК
-        clickSound.currentTime = 0; // Сброс в начало, чтобы можно было кликать быстро
-        clickSound.play().catch(() => {}); // Игнорируем ошибку, если браузер блокирует звук до первого клика
+        gsap.to("#hintBox", { opacity: 0, y: -200, duration: 0.5 });
 
         const id = `${pName} (${fName})`;
-        el.classList.toggle('selected');
-        
-        if (el.classList.contains('selected')) { cart.push(id); } 
-        else { cart = cart.filter(i => i !== id); }
-        
-        const btn = document.getElementById('orderBtn');
-        if (cart.length > 0) {
-            const txt = encodeURIComponent("Привет! Заказ:\n" + cart.map(i => "— " + i).join("\n") + "\n\nАдрес: ");
-            btn.href = `https://t.me/smokemanagerQST?text=${txt}`;
-            btn.innerText = `ВЫБРАНО: ${cart.length} | ЗАКАЗАТЬ`;
+        const price = parseInt(priceStr.replace(/\s/g, ''));
+        const idx = cart.findIndex(c => c.id === id);
+
+        if (idx === -1) {
+            cart.push({id, price});
+            el.classList.add('selected');
+            gsap.fromTo(el, {scale: 0.97}, {scale: 1.02, duration: 0.3, ease: "back.out(3)", yoyo: true, repeat: 1});
         } else {
-            btn.href = "https://t.me/smokemanagerQST";
-            btn.innerText = "📲 Заказать в Telegram";
+            cart.splice(idx, 1);
+            el.classList.remove('selected');
         }
-        if (navigator.vibrate) navigator.vibrate(20);
+        updateUI();
     }
 
-    init();
+    function updateUI() {
+        const btn = document.getElementById('orderBtn');
+        const priceDisplay = document.getElementById('totalPrice');
+        const total = cart.reduce((s, i) => s + i.price, 0);
 
-    setInterval(() => {
+        if (cart.length > 0) {
+            document.getElementById('btnLabel').innerText = `ЗАКАЗАТЬ (${cart.length})`;
+            let curr = { v: parseInt(priceDisplay.innerText) || 0 };
+            gsap.to(curr, {
+                v: total, duration: 0.5, onUpdate: () => {
+                    priceDisplay.innerText = Math.floor(curr.v).toLocaleString() + ' тг';
+                }
+            });
+            gsap.to(btn, { y: 0, opacity: 1, duration: 0.6, ease: "back.out(1.5)" });
+            btn.href = "https://t.me/smokemanagerQST?text=" + encodeURIComponent("❄️ ЗАКАЗ:\n" + cart.map(i => "— " + i.id).join("\n") + "\n\n💰 ИТОГО: " + total + " тг");
+        } else {
+            gsap.to(btn, { y: 150, opacity: 0, duration: 0.4 });
+        }
+    }
+
+    function createSnow() {
+        const container = document.getElementById('snow-container');
         const s = document.createElement('div');
-        s.className = 'snowflake'; s.innerHTML = '❄';
-        s.style.left = Math.random() * 100 + 'vw';
-        s.style.opacity = Math.random() * 0.4;
-        document.body.appendChild(s);
-        s.animate([{transform:'translateY(-10px)'},{transform:'translateY(110vh)'}], {duration: 6000}).onfinish = () => s.remove();
-    }, 500);
+        s.className = 'snowflake';
+        s.innerHTML = '❄';
+        s.style.left = Math.random() * 100 + '%';
+        container.appendChild(s);
+        gsap.to(s, { y: window.innerHeight + 50, x: "+=" + (Math.random() * 60 - 30), rotation: 360, duration: Math.random() * 5 + 5, ease: "none", onComplete: () => s.remove() });
+    }
+    setInterval(createSnow, 400);
+
+    init();
 </script>
 </body>
 </html>
