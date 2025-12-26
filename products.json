@@ -62,5 +62,20 @@
       {"name": "🫐 Черника лёд", "stock": true},
       {"name": "🍇 Ягодный микс", "stock": true}
     ]
+  },
+  {
+    "name": "WAKA 10000 BOOST",
+    "specs": "5% | 10 000 тяг",
+    "oldPrice": "",
+    "price": "11 000",
+    "promo": "",
+    "promoLink": "",
+    "flavors": [
+      {"name": "🥭 Guava Raspberry", "stock": true},
+      {"name": "🫐 Blueberry Cranberry Cherry", "stock": true},
+      {"name": "🍉 Watermelon Chill", "stock": true},
+      {"name": "🍒 Fizzy Cherry", "stock": true}
+    ]
   }
 ]
+
