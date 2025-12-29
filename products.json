@@ -1,81 +1,75 @@
 [
   {
-    "name": "WAKA BOOST 9000",
-    "specs": "7% | 9 000 тяг",
-    "oldPrice": "",
+    "name": "WAKA 10000",
+    "specs": "5% | 10 000 тяг",
+    "price": "11 500",
+    "flavors": [
+      { "name": "🍓 Strawberry Raspberry Cherry", "stock": true },
+      { "name": "🌿 Fresh Mint", "stock": true },
+      { "name": "🍬 Fruity Chews", "stock": true },
+      { "name": "🍈 Guava Raspberry", "stock": true },
+      { "name": "🫐 Blackberry Splash", "stock": true },
+      { "name": "🍏 Apple Surge", "stock": true }
+    ]
+  },
+  {
+    "name": "WAKA 9000",
+    "specs": "5% | 9 000 тяг",
     "price": "10 500",
-    "promo": "",
-    "promoLink": "",
     "flavors": [
-      {"name": "🍉 Арбузная жвачка", "stock": true},
-      {"name": "🍦 Ванильное мороженое", "stock": true},
-      {"name": "🍓 Клубничное мороженое", "stock": true},
-      {"name": "🌿 Мятное мороженое", "stock": true},
-      {"name": "🍑 Персиковое мороженое", "stock": true},
-      {"name": "🫐 Черника", "stock": true},
-      {"name": "🫐 Черника малина", "stock": true},
-      {"name": "🍇 Ягодный микс", "stock": false},
-      {"name": "💧 Минеральная вода", "stock": true},
-      {"name": "🍒 Вишнёвый микс", "stock": true}
+      { "name": "🍏 Кислое яблоко", "stock": true },
+      { "name": "🫐 Черника кислая малина", "stock": true },
+      { "name": "🍉 Арбузная жвачка", "stock": true },
+      { "name": "💧 Минеральная вода", "stock": true },
+      { "name": "🌿 Мятная черника", "stock": true },
+      { "name": "🍇 Виноградный морс", "stock": true },
+      { "name": "🍓 Кислая клубника", "stock": true },
+      { "name": "🍭 Чупа-чупс клубника малина", "stock": true }
     ]
   },
   {
-    "name": "ELFBAR BC10000 Touch",
-    "specs": "5% | 10 000 тяг",
-    "oldPrice": "",
-    "price": "11 000",
-    "promo": "",
-    "promoLink": "",
-    "flavors": [
-      {"name": "🤯 OMG", "stock": true},
-      {"name": "🍉 Черника – Арбуз", "stock": false},
-      {"name": "🍋 Вишня – Лимон", "stock": true},
-      {"name": "🍓 Малиновый рубин", "stock": false},
-      {"name": "🍊 Цитрус – Виноград", "stock": true}
-    ]
-  },
-  {
-    "name": "XLAND SPIKE 35000",
-    "specs": "5% | 35 000 тяг",
-    "oldPrice": "",
-    "price": "15 000",
-    "promo": "",
-    "promoLink": "",
-    "flavors": [
-      {"name": "🍓 Клубника киви", "stock": true},
-      {"name": "🫐 Черника лёд", "stock": true},
-      {"name": "🍑 Персик манго", "stock": true},
-      {"name": "🍇 Ягодный микс", "stock": true}
-    ]
-  },
-  {
-    "name": "XLAND 15000",
+    "name": "WAKA XLAND 15000",
     "specs": "5% | 15 000 тяг",
-    "oldPrice": "",
-    "price": "12 000",
-    "promo": "",
-    "promoLink": "",
+    "price": "11 500",
     "flavors": [
-      {"name": "🍏 Зелёное яблоко", "stock": true},
-      {"name": "🍑 Персик лимон", "stock": true},
-      {"name": "🍓 Клубника арбуз", "stock": true},
-      {"name": "🫐 Черника лёд", "stock": true},
-      {"name": "🍇 Ягодный микс", "stock": true}
+      { "name": "🍓 Клубника малина", "stock": true },
+      { "name": "🍓 Тройная ягода", "stock": true },
+      { "name": "🍋 Лайм и мята", "stock": true },
+      { "name": "🌵 Кактус и лимон", "stock": true },
+      { "name": "🍒 Вишня", "stock": true },
+      { "name": "🫐 Ежевика черника малина", "stock": true },
+      { "name": "🍬 Кислый мармелад", "stock": true },
+      { "name": "🥝 Клубника киви", "stock": true },
+      { "name": "🍉 Арбуз", "stock": true }
     ]
   },
   {
-    "name": "WAKA 10000 BOOST",
-    "specs": "5% | 10 000 тяг",
-    "oldPrice": "",
-    "price": "11 000",
-    "promo": "",
-    "promoLink": "",
+    "name": "WAKA XLAND 35000",
+    "specs": "5% | 35 000 тяг",
+    "price": "15 000",
     "flavors": [
-      {"name": "🥭 Guava Raspberry", "stock": true},
-      {"name": "🫐 Blueberry Cranberry Cherry", "stock": true},
-      {"name": "🍉 Watermelon Chill", "stock": true},
-      {"name": "🍒 Fizzy Cherry", "stock": true}
+      { "name": "🍏 Кислое яблоко", "stock": true },
+      { "name": "🍇 Клюква виноград", "stock": true },
+      { "name": "☕ Ледяной мокко", "stock": true }
+    ]
+  },
+  {
+    "name": "ELFBAR ICE KING 30000",
+    "specs": "5% | 30 000 тяг",
+    "price": "15 000",
+    "flavors": [
+      { "name": "🍑 Ледяной персик", "stock": true },
+      { "name": "🍉 Ледяной арбуз", "stock": true },
+      { "name": "🫐 Черника малина лед", "stock": true }
+    ]
+  },
+  {
+    "name": "ELFBAR BC10000 TOUCH",
+    "specs": "5% | 10 000 тяг",
+    "price": "10 500",
+    "flavors": [
+      { "name": "🤯 OMG", "stock": true },
+      { "name": "🍊 Citrus Grape", "stock": true }
     ]
   }
 ]
-
