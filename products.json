@@ -9,7 +9,8 @@
       { "name": "🍬 Fruity Chews", "stock": true },
       { "name": "🍈 Guava Raspberry", "stock": true },
       { "name": "🫐 Blackberry Splash", "stock": true },
-      { "name": "🍏 Apple Surge", "stock": true }
+      { "name": "🍏 Apple Surge", "stock": true },
+      { "name": "🍇 Cranberry Grape", "stock": true }
     ]
   },
   {
@@ -40,7 +41,10 @@
       { "name": "🫐 Ежевика черника малина", "stock": true },
       { "name": "🍬 Кислый мармелад", "stock": true },
       { "name": "🥝 Клубника киви", "stock": true },
-      { "name": "🍉 Арбуз", "stock": true }
+      { "name": "🍉 Арбуз", "stock": true },
+      { "name": "🌊 Морская соль лимон", "stock": true },
+      { "name": "🍹 Лимонад кислая ягода", "stock": true },
+      { "name": "🫐 Черника малина", "stock": true }
     ]
   },
   {
@@ -50,7 +54,8 @@
     "flavors": [
       { "name": "🍏 Кислое яблоко", "stock": true },
       { "name": "🍇 Клюква виноград", "stock": true },
-      { "name": "☕ Ледяной мокко", "stock": true }
+      { "name": "☕ Ледяной мокко", "stock": true },
+      { "name": "🍒 Вишня", "stock": true }
     ]
   },
   {
@@ -60,12 +65,13 @@
     "flavors": [
       { "name": "🍑 Ледяной персик", "stock": true },
       { "name": "🍉 Ледяной арбуз", "stock": true },
-      { "name": "🫐 Черника малина лед", "stock": true }
+      { "name": "🫐 Черника малина лед", "stock": true },
+      { "name": "🥝 Киви маракуя гуава", "stock": true }
     ]
   },
   {
     "name": "ELFBAR BC10000 TOUCH",
-    "specs": "5% | 10 000 тяг",
+    "pecs": "5% | 10 000 тяг",
     "price": "10 500",
     "flavors": [
       { "name": "🤯 OMG", "stock": true },
