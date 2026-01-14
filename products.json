@@ -21,6 +21,17 @@
     ]
   },
   {
+    "name": "ELFBAR ICE KING 30000",
+    "specs": "5% | 30 000 тяг",
+    "price": "15 000",
+    "flavors": [
+      { "name": "🍑 Ледяной персик", "stock": true },
+      { "name": "🍉 Ледяной арбуз", "stock": true },
+      { "name": "🥝 Киви маракуйя гуава", "stock": true },
+      { "name": "🫐 Черника малина лёд", "stock": true }
+    ]
+  },
+  {
     "name": "WAKA XLAND 15000",
     "specs": "5% | 15 000 тяг",
     "price": "11 500",
@@ -36,37 +47,6 @@
       { "name": "🍇 Зеленый виноград", "stock": true },
       { "name": "🍋 Ледяной лайм", "stock": true },
       { "name": "🍒 Клюква лимон", "stock": true }
-    ]
-  },
-  {
-    "name": "WAKA XLAND 35000",
-    "specs": "5% | 35 000 тяг",
-    "price": "15 000",
-    "flavors": [
-      { "name": "🍏 Кислое яблоко", "stock": true },
-      { "name": "🍇 Клюква виноград", "stock": true },
-      { "name": "☕ Ледяной мокко", "stock": true },
-      { "name": "🍒 Вишня", "stock": true }
-    ]
-  },
-  {
-    "name": "ELFBAR ICE KING 30000",
-    "specs": "5% | 30 000 тяг",
-    "price": "15 000",
-    "flavors": [
-      { "name": "🍑 Ледяной персик", "stock": true },
-      { "name": "🍉 Ледяной арбуз", "stock": true },
-      { "name": "🥝 Киви маракуйя гуава", "stock": true },
-      { "name": "🫐 Черника малина лёд", "stock": true }
-    ]
-  },
-  {
-    "name": "ELFBAR BC10000 TOUCH",
-    "pecs": "5% | 10 000 тяг",
-    "price": "10 500",
-    "flavors": [
-      { "name": "🤯 OMG", "stock": true },
-      { "name": "🍊 Citrus Grape", "stock": true }
     ]
   }
 ]
