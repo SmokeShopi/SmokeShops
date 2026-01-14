@@ -2,15 +2,12 @@
   {
     "name": "WAKA 10000",
     "specs": "5% | 10 000 тяг",
-    "price": "11 500",
+    "price": "12 000",
     "flavors": [
-      { "name": "🍓 Strawberry Raspberry Cherry", "stock": true },
-      { "name": "🌿 Fresh Mint", "stock": true },
-      { "name": "🍬 Fruity Chews", "stock": true },
-      { "name": "🍈 Guava Raspberry", "stock": true },
-      { "name": "🫐 Blackberry Splash", "stock": true },
-      { "name": "🍏 Apple Surge", "stock": true },
-      { "name": "🍇 Cranberry Grape", "stock": true }
+      { "name": "🌿 Fresh mint", "stock": true },
+      { "name": "🍬 Fruity chews", "stock": true },
+      { "name": "🫐 Blackcurrant mint", "stock": true },
+      { "name": "👤 Mr.blue", "stock": true }
     ]
   },
   {
@@ -18,14 +15,9 @@
     "specs": "5% | 9 000 тяг",
     "price": "10 500",
     "flavors": [
-      { "name": "🍏 Кислое яблоко", "stock": true },
-      { "name": "🫐 Черника кислая малина", "stock": true },
-      { "name": "🍉 Арбузная жвачка", "stock": true },
-      { "name": "💧 Минеральная вода", "stock": true },
-      { "name": "🌿 Мятная черника", "stock": true },
-      { "name": "🍇 Виноградный морс", "stock": true },
       { "name": "🍓 Кислая клубника", "stock": true },
-      { "name": "🍭 Чупа-чупс клубника малина", "stock": true }
+      { "name": "💧 Минеральная вода", "stock": true },
+      { "name": "🍉 Арбузная жвачка", "stock": true }
     ]
   },
   {
@@ -33,18 +25,17 @@
     "specs": "5% | 15 000 тяг",
     "price": "11 500",
     "flavors": [
-      { "name": "🍓 Клубника малина", "stock": true },
-      { "name": "🍓 Тройная ягода", "stock": true },
-      { "name": "🍋 Лайм и мята", "stock": true },
+      { "name": "🍇 Сакура виноград", "stock": true },
       { "name": "🌵 Кактус и лимон", "stock": true },
-      { "name": "🍒 Вишня", "stock": true },
-      { "name": "🫐 Ежевика черника малина", "stock": true },
+      { "name": "🍏 Кислое яблоко", "stock": true },
+      { "name": "🌿 Мята", "stock": true },
+      { "name": "🫐 Черника малина", "stock": true },
       { "name": "🍬 Кислый мармелад", "stock": true },
-      { "name": "🥝 Клубника киви", "stock": true },
-      { "name": "🍉 Арбуз", "stock": true },
       { "name": "🌊 Морская соль лимон", "stock": true },
-      { "name": "🍹 Лимонад кислая ягода", "stock": true },
-      { "name": "🫐 Черника малина", "stock": true }
+      { "name": "🍒 Вишня", "stock": true },
+      { "name": "🍇 Зеленый виноград", "stock": true },
+      { "name": "🍋 Ледяной лайм", "stock": true },
+      { "name": "🍒 Клюква лимон", "stock": true }
     ]
   },
   {
@@ -65,8 +56,8 @@
     "flavors": [
       { "name": "🍑 Ледяной персик", "stock": true },
       { "name": "🍉 Ледяной арбуз", "stock": true },
-      { "name": "🫐 Черника малина лед", "stock": true },
-      { "name": "🥝 Киви маракуя гуава", "stock": true }
+      { "name": "🥝 Киви маракуйя гуава", "stock": true },
+      { "name": "🫐 Черника малина лёд", "stock": true }
     ]
   },
   {
