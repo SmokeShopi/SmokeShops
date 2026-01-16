@@ -23,7 +23,7 @@
   {
     "name": "ELFBAR ICE KING 30000",
     "specs": "5% | 30 000 тяг",
-    "price": "15 000",
+    "price": "16 000",
     "flavors": [
       { "name": "🍑 Ледяной персик", "stock": true },
       { "name": "🍉 Ледяной арбуз", "stock": true },
@@ -50,3 +50,4 @@
     ]
   }
 ]
+
