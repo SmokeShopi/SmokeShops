@@ -60,7 +60,7 @@
   {
     "name": "WAKA Slim 8000",
     "specs": "5% | 8 000 тяг",
-    "price": "9 500",
+    "price": "11 500",
     "flavors": [
       { "name": "🍇 Виноград/Олдскул", "stock": true },
       { "name": "🍒 Вишня", "stock": true },
@@ -70,3 +70,4 @@
     ]
   }
 ]
+
