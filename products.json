@@ -1,26 +1,5 @@
 [
   {
-    "name": "WAKA 10000",
-    "specs": "5% | 10 000 тяг",
-    "price": "12 000",
-    "flavors": [
-      { "name": "🌿 Fresh mint", "stock": true },
-      { "name": "🍬 Fruity chews", "stock": true },
-      { "name": "🫐 Blackcurrant mint", "stock": true },
-      { "name": "👤 Mr.blue", "stock": true }
-    ]
-  },
-  {
-    "name": "WAKA 9000",
-    "specs": "5% | 9 000 тяг",
-    "price": "10 500",
-    "flavors": [
-      { "name": "🍓 Кислая клубника", "stock": true },
-      { "name": "💧 Минеральная вода", "stock": true },
-      { "name": "🍉 Арбузная жвачка", "stock": true }
-    ]
-  },
-  {
     "name": "ELFBAR ICE KING 30000",
     "specs": "5% | 30 000 тяг",
     "price": "16 000",
@@ -32,22 +11,62 @@
     ]
   },
   {
+    "name": "WAKA soPro 20000",
+    "specs": "5% | 20 000 тяг",
+    "price": "14 500",
+    "flavors": [
+      { "name": "🍇 Cranberry Grape", "stock": true },
+      { "name": "🍓 Strawberry Grape", "stock": true },
+      { "name": "🍓 Strawberry Raspberry", "stock": true },
+      { "name": "🫐 Blueberry Raspberry", "stock": true }
+    ]
+  },
+  {
     "name": "WAKA XLAND 15000",
     "specs": "5% | 15 000 тяг",
     "price": "11 500",
     "flavors": [
-      { "name": "🍇 Сакура виноград", "stock": true },
-      { "name": "🌵 Кактус и лимон", "stock": true },
-      { "name": "🍏 Кислое яблоко", "stock": true },
-      { "name": "🌿 Мята", "stock": true },
-      { "name": "🫐 Черника малина", "stock": true },
+      { "name": "🍒 Вишня", "stock": true },
       { "name": "🍬 Кислый мармелад", "stock": true },
       { "name": "🌊 Морская соль лимон", "stock": true },
-      { "name": "🍒 Вишня", "stock": true },
       { "name": "🍇 Зеленый виноград", "stock": true },
       { "name": "🍋 Ледяной лайм", "stock": true },
+      { "name": "🍇 Сакура виноград", "stock": true },
+      { "name": "🍋 Текила лимон", "stock": true },
+      { "name": "🌿 Мята", "stock": true },
+      { "name": "🌵 Кактус и лимон", "stock": true },
       { "name": "🍒 Клюква лимон", "stock": true }
+    ]
+  },
+  {
+    "name": "WAKA 10000",
+    "specs": "5% | 10 000 тяг",
+    "price": "12 000",
+    "flavors": [
+      { "name": "🌿 Fresh mint", "stock": true },
+      { "name": "🫐 Blackcurrant mint", "stock": true }
+    ]
+  },
+  {
+    "name": "WAKA 9000",
+    "specs": "5% | 9 000 тяг",
+    "price": "10 500",
+    "flavors": [
+      { "name": "💧 Минеральная вода", "stock": true },
+      { "name": "🍉 Арбузная жвачка", "stock": true },
+      { "name": "🍓 Кислая клубника", "stock": true }
+    ]
+  },
+  {
+    "name": "WAKA Slim 8000",
+    "specs": "5% | 8 000 тяг",
+    "price": "9 500",
+    "flavors": [
+      { "name": "🍇 Виноград/Олдскул", "stock": true },
+      { "name": "🍒 Вишня", "stock": true },
+      { "name": "🫐 Морс черная смородина ягоды", "stock": true },
+      { "name": "🍉 Арбуз со льдом", "stock": true },
+      { "name": "🍏 Кислое яблоко", "stock": true }
     ]
   }
 ]
-
