@@ -7,18 +7,28 @@
       { "name": "🍑 Ледяной персик", "stock": true },
       { "name": "🍉 Ледяной арбуз", "stock": true },
       { "name": "🥝 Киви маракуйя гуава", "stock": true },
-      { "name": "🫐 Черника малина лёд", "stock": true }
+      { "name": "🫐 Черника малина лёд", "stock": true },
+      { "name": "🍇 Виноград лёд", "stock": true },
+      { "name": "🥭 Двойной манго", "stock": true },
+      { "name": "❄️ Майами минт", "stock": true },
+      { "name": "🍎 Двойное яблоко", "stock": true },
+      { "name": "🍓 Клубника арбуз", "stock": true }
     ]
   },
   {
     "name": "WAKA soPro 20000",
     "specs": "5% | 20 000 тяг",
-    "price": "14 500",
+    "price": "15 000",
     "flavors": [
-      { "name": "🍇 Cranberry Grape", "stock": true },
-      { "name": "🍓 Strawberry Grape", "stock": true },
-      { "name": "🍓 Strawberry Raspberry", "stock": true },
-      { "name": "🫐 Blueberry Raspberry", "stock": true }
+      { "name": "🍇 Клюква виноград", "stock": true },
+      { "name": "🍓 Клубника виноград", "stock": true },
+      { "name": "🍓 Клубника малина", "stock": true },
+      { "name": "🫐 Черника малина", "stock": true },
+      { "name": "🥝 Киви маракуйя гуава", "stock": true },
+      { "name": "🍒 Темная вишня", "stock": true },
+      { "name": "🍎 Мятный яблочный чай", "stock": true },
+      { "name": "☕️ Капучино", "stock": true },
+      { "name": "🌸 Сакура виноград", "stock": true }
     ]
   },
   {
@@ -35,7 +45,9 @@
       { "name": "🍋 Текила лимон", "stock": true },
       { "name": "🌿 Мята", "stock": true },
       { "name": "🌵 Кактус и лимон", "stock": true },
-      { "name": "🍒 Клюква лимон", "stock": true }
+      { "name": "🍒 Клюква лимон", "stock": true },
+      { "name": "🍉 Арбузный холод", "stock": true },
+      { "name": "🍎 Кислое яблоко", "stock": true }
     ]
   },
   {
@@ -44,7 +56,9 @@
     "price": "12 000",
     "flavors": [
       { "name": "🌿 Fresh mint", "stock": true },
-      { "name": "🫐 Blackcurrant mint", "stock": true }
+      { "name": "🫐 Blackcurrant mint", "stock": true },
+      { "name": "🍬 Fruity chews", "stock": true },
+      { "name": "👤 Mr.blue", "stock": true }
     ]
   },
   {
@@ -60,14 +74,16 @@
   {
     "name": "WAKA Slim 8000",
     "specs": "5% | 8 000 тяг",
-    "price": "11 500",
+    "price": "11 000",
     "flavors": [
       { "name": "🍇 Виноград/Олдскул", "stock": true },
       { "name": "🍒 Вишня", "stock": true },
       { "name": "🫐 Морс черная смородина ягоды", "stock": true },
       { "name": "🍉 Арбуз со льдом", "stock": true },
-      { "name": "🍏 Кислое яблоко", "stock": true }
+      { "name": "🍎 Кислое яблоко", "stock": true },
+      { "name": "🥤 Розовый лимонад", "stock": true },
+      { "name": "🍐 Дюшес", "stock": true },
+      { "name": "🍓 Персик клубника", "stock": true }
     ]
   }
 ]
-
