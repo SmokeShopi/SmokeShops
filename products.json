@@ -4,14 +4,12 @@
     "specs": "5% | 35 000 тяг",
     "price": "16 000",
     "flavors": [
-      { "name": "❄️ Черника малина ментол", "stock": true },
-      { "name": "🫐 Черника малина", "stock": true },
-      { "name": "🍇 Клюква виноград", "stock": true },
+      { "name": "🍇 Зеленый виноград", "stock": true },
+      { "name": "🍓 Клубника малина", "stock": true },
       { "name": "🌸 Сакура виноград", "stock": true },
       { "name": "🍏 Кислое яблоко", "stock": true },
-      { "name": "🍓 Клубника малина", "stock": true },
-      { "name": "🍓 Клубника виноград", "stock": true },
-      { "name": "🍇 Зеленый виноград", "stock": true },
+      { "name": "❄️ Черника малина ментол", "stock": true },
+      { "name": "🍇 Клюква виноград", "stock": true },
       { "name": "🫐 Тройная ягода", "stock": true }
     ]
   },
@@ -20,8 +18,20 @@
     "specs": "5% | 30 000 тяг",
     "price": "16 000",
     "flavors": [
-      { "name": "🍉 Ледяной арбуз", "stock": true },
-      { "name": "🥝 Киви маракуйя гуава", "stock": true }
+      { "name": "🥝 Киви маракуйя", "stock": true },
+      { "name": "🍉 Ледяной арбуз", "stock": true }
+    ]
+  },
+  {
+    "name": "ELFBAR GH23000",
+    "specs": "5% | 23 000 тяг",
+    "price": "13 000",
+    "flavors": [
+      { "name": "🍇 Ледяной виноград", "stock": true },
+      { "name": "🍐 Черника груша", "stock": true },
+      { "name": "🍏 Зеленое яблоко лёд", "stock": true },
+      { "name": "🍍 Ананас слива лайм мята", "stock": true },
+      { "name": "🥝 Киви питайя", "stock": true }
     ]
   },
   {
@@ -29,12 +39,7 @@
     "specs": "5% | 20 000 тяг",
     "price": "15 000",
     "flavors": [
-      { "name": "🥝 Kiwi Passion Guava", "stock": true },
-      { "name": "🍇 Strawberry Grape", "stock": true },
-      { "name": "🫐 Triple Berry", "stock": true },
-      { "name": "🍓 Strawberry Raspberry", "stock": true },
-      { "name": "🥝 Strawberry Kiwi", "stock": true },
-      { "name": "🍒 Blueberry Cranberry Cherry", "stock": true }
+      { "name": "🍓 Strawberry kiwi", "stock": true }
     ]
   },
   {
@@ -42,7 +47,16 @@
     "specs": "5% | 15 000 тяг",
     "price": "11 500",
     "flavors": [
-      { "name": "🌊 Морская соль лимон", "stock": true }
+      { "name": "🍓 Клубника малина", "stock": true },
+      { "name": "🍏 Кислое яблоко", "stock": true },
+      { "name": "🫐 Черника малина", "stock": true },
+      { "name": "🍐 Груша лимон", "stock": true },
+      { "name": "🌿 Лайм и мята", "stock": true },
+      { "name": "🌊 Морская соль лимон", "stock": true },
+      { "name": "🍒 Вишня", "stock": true },
+      { "name": "🍉 Арбуз", "stock": true },
+      { "name": "🍇 Зеленый виноград", "stock": true },
+      { "name": "🌸 Сакура виноград", "stock": true }
     ]
   },
   {
@@ -50,13 +64,12 @@
     "specs": "5% | 9 000 тяг",
     "price": "11 000",
     "flavors": [
-      { "name": "🥤 Вишневая кола", "stock": true },
-      { "name": "🍉 Арбуз", "stock": true },
-      { "name": "🥭 Тройное манго", "stock": true },
       { "name": "🫐 Черника кислая малина", "stock": true },
-      { "name": "🌿 Мятная черника", "stock": true },
-      { "name": "🥝 Клубника киви", "stock": true },
-      { "name": "🍒 Клубника малина вишня", "stock": true }
+      { "name": "🥭 Тройное манго", "stock": true },
+      { "name": "🥤 Вишневая кола", "stock": true },
+      { "name": "🍒 Клубника малина вишня", "stock": true },
+      { "name": "🍉 Арбуз", "stock": true },
+      { "name": "🥝 Клубника киви", "stock": true }
     ]
   },
   {
@@ -64,7 +77,13 @@
     "specs": "5% | 8 000 тяг",
     "price": "11 000",
     "flavors": [
-      { "name": "🫐 Морс чёрная смородина ягоды", "stock": true }
+      { "name": "🍇 Виноград со льдом", "stock": true },
+      { "name": "🍏 Кислое яблоко", "stock": true },
+      { "name": "🌿 Свежая мята", "stock": true },
+      { "name": "🫐 Морс черная смородина ягода", "stock": true },
+      { "name": "🫐 Ягодный микс", "stock": true },
+      { "name": "🍋 Вишня лимон", "stock": true },
+      { "name": "🍉 Арбуз со льдом", "stock": true }
     ]
   },
   {
@@ -72,11 +91,13 @@
     "specs": "5% | 7 000 тяг",
     "price": "8 000",
     "flavors": [
-      { "name": "🏝 Тропический остров", "stock": true },
       { "name": "🍍 Ледяной ананас и кокос", "stock": true },
+      { "name": "🌿 Цветущая мята", "stock": true },
+      { "name": "🍏 Канталупа яблоко", "stock": true },
+      { "name": "🥝 Апельсин звездчатый фрукт киви", "stock": true },
+      { "name": "💣 Розовая бомба", "stock": true },
       { "name": "🌹 Черника роза мята", "stock": true },
-      { "name": "🥝 Звездчатый фрукт киви", "stock": true },
-      { "name": "🌿 Цветущая мята", "stock": true }
+      { "name": "🏝️ Тропический остров", "stock": true }
     ]
   }
 ]
