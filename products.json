@@ -4,10 +4,7 @@
     "specs": "5% | 35 000 тяг",
     "price": "16 000",
     "flavors": [
-      {
-        "name": "🍇 Зеленый виноград",
-        "stock": true
-      }
+      { "name": "🍇 Зеленый виноград", "stock": true }
     ]
   },
   {
@@ -15,10 +12,7 @@
     "specs": "5% | 30 000 тяг",
     "price": "16 000",
     "flavors": [
-      {
-        "name": "🥝 Киви маракуйя гуава",
-        "stock": true
-      }
+      { "name": "🥝 Киви маракуйя гуава", "stock": true }
     ]
   },
   {
@@ -26,122 +20,56 @@
     "specs": "5% | 23 000 тяг",
     "price": "13 000",
     "flavors": [
-      {
-        "name": "🥝 Киви питайя",
-        "stock": true
-      },
-      {
-        "name": "🍇 Ледяной виноград",
-        "stock": true
-      },
-      {
-        "name": "🍐 Ежевика груша",
-        "stock": true
-      },
-      {
-        "name": "🌸 Сакура виноград",
-        "stock": true
-      },
-      {
-        "name": "🍏 Зелёное яблоко лёд",
-        "stock": true
-      },
-      {
-        "name": "🫐 Черника груша",
-        "stock": true
-      }
+      { "name": "🥝 Киви питайя", "stock": true },
+      { "name": "🍇 Ледяной виноград", "stock": true },
+      { "name": "🍐 Ежевика груша", "stock": true },
+      { "name": "🌸 Сакура виноград", "stock": true },
+      { "name": "🍏 Зелёное яблоко лёд", "stock": true },
+      { "name": "🫐 Черника груша", "stock": true }
     ]
   },
   {
     "name": "Geek Bar 15000",
     "specs": "5% | 15 000 тяг",
-    "price": "11 500",
+    "price": "12 000",
     "flavors": [
-      {
-        "name": "🥭 Кислые манго ананас",
-        "stock": true
-      },
-      {
-        "name": "🍬 Ежевичный Чупа чупс",
-        "stock": true
-      },
-      {
-        "name": "🍋 Кислая лимонная конфета",
-        "stock": true
-      },
-      {
-        "name": "🍭 Кисло-сладкие леденцы",
-        "stock": true
-      },
-      {
-        "name": "🍏 Ледяное кислое яблоко",
-        "stock": true
-      },
-      {
-        "name": "🍑 Малина персик лайм",
-        "stock": true
-      },
-      {
-        "name": "🍓 Клубничный Чупа чупс",
-        "stock": true
-      }
+      { "name": "🥭 Кислые манго ананас", "stock": true },
+      { "name": "🍬 Ежевичный Чупа чупс", "stock": true },
+      { "name": "🍋 Кислая лимонная конфета", "stock": true },
+      { "name": "🍭 Кисло-сладкие леденцы", "stock": true },
+      { "name": "🍏 Ледяное кислое яблоко", "stock": true },
+      { "name": "🍑 Малина персик лайм", "stock": true },
+      { "name": "🍓 Клубничный Чупа чупс", "stock": true }
     ]
   },
   {
     "name": "WAKA XLAND 15000",
     "specs": "5% | 15 000 тяг",
-    "price": "11 500",
+    "price": "12 000",
     "flavors": [
-      {
-        "name": "🍐 Груша лимон",
-        "stock": true
-      },
-      {
-        "name": "🌊 Морская соль лимон",
-        "stock": true
-      },
-      {
-        "name": "🌿 Лайм и мята",
-        "stock": true
-      }
+      { "name": "🍐 Груша лимон", "stock": true },
+      { "name": "🌊 Морская соль лимон", "stock": true },
+      { "name": "🌿 Лайм и мята", "stock": true }
     ]
   },
   {
     "name": "WAKA 9000",
     "specs": "5% | 9 000 тяг",
-    "price": "11 000",
+    "price": "11 500",
     "flavors": [
-      {
-        "name": "🥝 Клубника киви",
-        "stock": true
-      },
-      {
-        "name": "🍭 Чупа чупс клубника малина",
-        "stock": true
-      },
-      {
-        "name": "🍇 Клубника виноград",
-        "stock": true
-      },
-      {
-        "name": "🥤 Газированная вишня лайм",
-        "stock": true
-      }
+      { "name": "🥝 Клубника киви", "stock": true },
+      { "name": "🍭 Чупа чупс клубника малина", "stock": true },
+      { "name": "🍇 Клубника виноград", "stock": true },
+      { "name": "🥤 Газированная вишня лайм", "stock": true }
     ]
   },
   {
     "name": "WAKA Slim 8000",
     "specs": "5% | 8 000 тяг",
-    "price": "10 500",
+    "price": "11 000",
     "flavors": [
-      {
-        "name": "🍋 Черника малина лимон",
-        "stock": true
-      },
-      {
-        "name": "🌿 Свежая мята",
-        "stock": true
-      }
+      { "name": "🍋 Черника малина лимон", "stock": true },
+      { "name": "🌿 Свежая мята", "stock": true }
     ]
   },
   {
@@ -149,22 +77,10 @@
     "specs": "5% | 7 000 тяг",
     "price": "8 000",
     "flavors": [
-      {
-        "name": "🍏 Канталупа яблоко",
-        "stock": true
-      },
-      {
-        "name": "🌿 Цветущая мята",
-        "stock": true
-      },
-      {
-        "name": "🍌 Клубника банан",
-        "stock": true
-      },
-      {
-        "name": "🥥 Ледяной ананас и кокос",
-        "stock": true
-      }
+      { "name": "🍏 Канталупа яблоко", "stock": true },
+      { "name": "🌿 Цветущая мята", "stock": true },
+      { "name": "🍌 Клубника банан", "stock": true },
+      { "name": "🥥 Ледяной ананас и кокос", "stock": true }
     ]
   }
 ]
