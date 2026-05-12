@@ -105,8 +105,8 @@
     "specs": "5% | 7 000 тяг",
     "price": "8 000",
     "flavors": [
-      { "name": "🍌 КЛУБНИКА БАНАН", "stock": true },
-      { "name": "🌿 ЦВЕТУЩАЯ МЯТА", "stock": true },
+      { "name": "🍌 КЛУБНИКА БАНАН", "stock": false },
+      { "name": "🌿 ЦВЕТУЩАЯ МЯТА", "stock": false },
       { "name": "🍏 КАНТАЛУПА ЯБЛОКО", "stock": true }
     ]
   }
