@@ -1,55 +1,75 @@
 [
   {
-    "name": "WAKA XLAND SPIKE 35000",
-    "specs": "5% | 35 000 тяг",
-    "price": "16 000",
-    "flavors": [
-      { "name": "🍇 Зеленый виноград", "stock": true }
-    ]
-  },
-  {
     "name": "ELFBAR ICE KING 30000",
     "specs": "5% | 30 000 тяг",
     "price": "16 000",
     "flavors": [
-      { "name": "🥝 Киви маракуйя гуава", "stock": true }
+      { "name": "🥝 КИВИ МАРАКУЙЯ ГУАВА", "stock": true }
     ]
   },
   {
-    "name": "ELFBAR GH23000",
+    "name": "MAXGO 33K Switch",
+    "specs": "18mg/ml | 33 000 тяг (Переключатель вкусов)",
+    "price": "14 000",
+    "flavors": [
+      { "name": "🍒 Cherry Blast / Blueberry Cherry Cranberry", "stock": true },
+      { "name": "🫐 Sweet Blueberry / Blueberry Raspberry", "stock": true },
+      { "name": "🍋 Pineapple Ice / Lemon Lime", "stock": true }
+    ]
+  },
+  {
+    "name": "GEEK BAR PULSE X",
+    "specs": "15 000 (Pulse) / 25 000 (Regular)",
+    "price": "12 000",
+    "flavors": [
+      { "name": "🍏 ЛЕДЯНОЕ КИСЛОЕ ЯБЛОКО", "stock": true },
+      { "name": "🍭 КИСЛО СЛАДКИЕ ЛЕДЕНЦЫ", "stock": true },
+      { "name": "🍑 МАЛИНА ПЕРСИК ЛАЙМ", "stock": true },
+      { "name": "🍬 ЕЖЕВИЧНЫЙ ЧУПА ЧУПС", "stock": true },
+      { "name": "🍋 КИСЛАЯ ЛИМОННАЯ КОНФЕТА", "stock": true },
+      { "name": "🥭 КИСЛЫЕ МАНГО АНАНАС", "stock": true }
+    ]
+  },
+  {
+    "name": "ELFBAR GH 23000",
     "specs": "5% | 23 000 тяг",
     "price": "13 000",
     "flavors": [
-      { "name": "🥝 Киви питайя", "stock": true },
-      { "name": "🍇 Ледяной виноград", "stock": true },
-      { "name": "🍐 Ежевика груша", "stock": true },
-      { "name": "🌸 Сакура виноград", "stock": true },
-      { "name": "🍏 Зелёное яблоко лёд", "stock": true },
-      { "name": "🫐 Черника груша", "stock": true }
+      { "name": "🥝 КИВИ ПИТАЙЯ", "stock": true },
+      { "name": "🌸 САКУРА ВИНОГРАД", "stock": true },
+      { "name": "🍇 ЛЕДЯНОЙ ВИНОГРАД", "stock": true },
+      { "name": "🍐 ЧЕРНИКА ГРУША", "stock": true },
+      { "name": "🍐 Ежевика Груша", "stock": true }
     ]
   },
   {
-    "name": "Geek Bar 15000",
-    "specs": "5% | 15 000 тяг",
-    "price": "12 000",
+    "name": "WAKA soPro 20000",
+    "specs": "5% | 20 000 тяг",
+    "price": "15 000",
     "flavors": [
-      { "name": "🥭 Кислые манго ананас", "stock": true },
-      { "name": "🍬 Ежевичный Чупа чупс", "stock": true },
-      { "name": "🍋 Кислая лимонная конфета", "stock": true },
-      { "name": "🍭 Кисло-сладкие леденцы", "stock": true },
-      { "name": "🍏 Ледяное кислое яблоко", "stock": true },
-      { "name": "🍑 Малина персик лайм", "stock": true },
-      { "name": "🍓 Клубничный Чупа чупс", "stock": true }
+      { "name": "🫐 BLUEBERRY RASPBERRY", "stock": true },
+      { "name": "🥝 STRAWBERRY KIWI", "stock": true },
+      { "name": "🍇 STRAWBERRY GRAPE", "stock": true },
+      { "name": "🫐 TRIPLE BERRY", "stock": true },
+      { "name": "🥤 RASPBERRY DARK SPARKLE", "stock": true },
+      { "name": "🌿 BLUE RASPBERRY MINT", "stock": true },
+      { "name": "🍉 WATERMELON CHILL", "stock": true },
+      { "name": "🥝 KIWI PASSION GUAVA", "stock": true },
+      { "name": "🍒 WATERMELON CHERRY", "stock": true },
+      { "name": "🍓 STRAWBERRY RASPBERRY", "stock": true },
+      { "name": "🍒 DARK CHERRY", "stock": true },
+      { "name": "🫐 BLUE RAZZ BLACKBERRY", "stock": true },
+      { "name": "⚡ VIMBULL ICE", "stock": true },
+      { "name": "🍉 STRAWBERRY WATERMELON", "stock": true },
+      { "name": "🌸 SAKURA GRAPE", "stock": true }
     ]
   },
   {
-    "name": "WAKA XLAND 15000",
+    "name": "WAKA X LAND 15000",
     "specs": "5% | 15 000 тяг",
     "price": "12 000",
     "flavors": [
-      { "name": "🍐 Груша лимон", "stock": true },
-      { "name": "🌊 Морская соль лимон", "stock": true },
-      { "name": "🌿 Лайм и мята", "stock": true }
+      { "name": "🌊 МОРСКАЯ СОЛЬ ЛИМОН", "stock": true }
     ]
   },
   {
@@ -57,10 +77,18 @@
     "specs": "5% | 9 000 тяг",
     "price": "11 500",
     "flavors": [
+      { "name": "🍒 Вишня со льдом", "stock": true },
+      { "name": "🍉 Арбуз", "stock": true },
       { "name": "🥝 Клубника киви", "stock": true },
-      { "name": "🍭 Чупа чупс клубника малина", "stock": true },
+      { "name": "🌿 Свежая мята", "stock": true },
+      { "name": "🍑 Персик лёд", "stock": true },
+      { "name": "🍏 Кислое яблоко", "stock": true },
       { "name": "🍇 Клубника виноград", "stock": true },
-      { "name": "🥤 Газированная вишня лайм", "stock": true }
+      { "name": "🥤 Вишнёвая кола", "stock": true },
+      { "name": "🍬 Арбузная жвачка", "stock": true },
+      { "name": "🫐 Ягодный Микс", "stock": true },
+      { "name": "❄️ Мятный арбуз", "stock": true },
+      { "name": "🍭 Чупа чупс клубника малина", "stock": true }
     ]
   },
   {
@@ -68,19 +96,18 @@
     "specs": "5% | 8 000 тяг",
     "price": "11 000",
     "flavors": [
-      { "name": "🍋 Черника малина лимон", "stock": true },
-      { "name": "🌿 Свежая мята", "stock": true }
+      { "name": "🌿 СВЕЖАЯ МЯТА", "stock": true },
+      { "name": "🥭 МАНГО СО ЛЬДОМ", "stock": true }
     ]
   },
   {
-    "name": "Funky lands Ti7000",
+    "name": "FUNKY LANDS TI 7000",
     "specs": "5% | 7 000 тяг",
     "price": "8 000",
     "flavors": [
-      { "name": "🍏 Канталупа яблоко", "stock": true },
-      { "name": "🌿 Цветущая мята", "stock": true },
-      { "name": "🍌 Клубника банан", "stock": true },
-      { "name": "🥥 Ледяной ананас и кокос", "stock": true }
+      { "name": "🍌 КЛУБНИКА БАНАН", "stock": true },
+      { "name": "🌿 ЦВЕТУЩАЯ МЯТА", "stock": true },
+      { "name": "🍏 КАНТАЛУПА ЯБЛОКО", "stock": true }
     ]
   }
 ]
