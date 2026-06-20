@@ -1,119 +1,25 @@
 [
   {
-    "name": "ELFBAR ICE KING 30000",
-    "specs": "5% | 30 000 тяг",
-    "price": "16 000",
-    "flavors": [
-      { "name": "🥝 КИВИ МАРАКУЙЯ ГУАВА", "stock": true }
-    ]
-  },
-  {
-    "name": "MAXGO 33K Switch",
-    "specs": "18mg/ml | 33 000 тяг (Переключатель вкусов)",
-    "price": "14 000",
-    "flavors": [
-      { "name": "🍒 Cherry Blast / Blueberry Cherry Cranberry", "stock": true },
-      { "name": "🫐 Sweet Blueberry / Blueberry Raspberry", "stock": true },
-      { "name": "🍋 Pineapple Ice / Lemon Lime", "stock": true }
-    ]
-  },
-  {
-    "name": "GEEK BAR PULSE X",
-    "specs": "15 000 (Pulse) / 25 000 (Regular)",
-    "price": "12 000",
-    "flavors": [
-      { "name": "🍏 ЛЕДЯНОЕ КИСЛОЕ ЯБЛОКО", "stock": true },
-      { "name": "🍭 КИСЛО СЛАДКИЕ ЛЕДЕНЦЫ", "stock": true },
-      { "name": "🍑 МАЛИНА ПЕРСИК ЛАЙМ", "stock": true },
-      { "name": "🍬 ЕЖЕВИЧНЫЙ ЧУПА ЧУПС", "stock": true },
-      { "name": "🍋 КИСЛАЯ ЛИМОННАЯ КОНФЕТА", "stock": true },
-      { "name": "🥭 КИСЛЫЕ МАНГО АНАНАС", "stock": true }
-    ]
-  },
-  {
-    "name": "ELFBAR GH 23000",
-    "specs": "5% | 23 000 тяг",
-    "price": "13 000",
-    "flavors": [
-      { "name": "🥝 КИВИ ПИТАЙЯ", "stock": true },
-      { "name": "🌸 САКУРА ВИНОГРАД", "stock": true },
-      { "name": "🍇 ЛЕДЯНОЙ ВИНОГРАД", "stock": true },
-      { "name": "🍐 ЧЕРНИКА ГРУША", "stock": true },
-      { "name": "🍐 Ежевика Груша", "stock": true }
-    ]
-  },
-  {
-    "name": "WAKA soPro 20000",
-    "specs": "5% | 20 000 тяг",
+    "name": "BRUSKO MINICAN-5",
+    "specs": "Под-система",
     "price": "15 000",
     "flavors": [
-      { "name": "🫐 BLUEBERRY RASPBERRY", "stock": true },
-      { "name": "🥝 STRAWBERRY KIWI", "stock": true },
-      { "name": "🍇 STRAWBERRY GRAPE", "stock": true },
-      { "name": "🫐 TRIPLE BERRY", "stock": true },
-      { "name": "🥤 RASPBERRY DARK SPARKLE", "stock": true },
-      { "name": "🌿 BLUE RASPBERRY MINT", "stock": true },
-      { "name": "🍉 WATERMELON CHILL", "stock": true },
-      { "name": "🥝 KIWI PASSION GUAVA", "stock": true },
-      { "name": "🍒 WATERMELON CHERRY", "stock": true },
-      { "name": "🍓 STRAWBERRY RASPBERRY", "stock": true },
-      { "name": "🍒 DARK CHERRY", "stock": true },
-      { "name": "🫐 BLUE RAZZ BLACKBERRY", "stock": true },
-      { "name": "⚡ VIMBULL ICE", "stock": true },
-      { "name": "🍉 STRAWBERRY WATERMELON", "stock": true },
-      { "name": "🌸 SAKURA GRAPE", "stock": true }
+      { "name": "🟢 Зеленый (цвет)", "stock": true },
+      { "name": "🔴 Красный (цвет)", "stock": true }
     ]
   },
   {
-    "name": "WAKA X LAND 15000",
-    "specs": "5% | 15 000 тяг",
-    "price": "12 000",
+    "name": "Brusko Minican Lite",
+    "specs": "Под-система",
+    "price": "14 000",
     "flavors": [
-      { "name": "🌊 МОРСКАЯ СОЛЬ ЛИМОН", "stock": true }
-    ]
-  },
-  {
-    "name": "WAKA 9000",
-    "specs": "5% | 9 000 тяг",
-    "price": "11 500",
-    "flavors": [
-      { "name": "🍒 Вишня со льдом", "stock": true },
-      { "name": "🍉 Арбуз", "stock": true },
-      { "name": "🥝 Клубника киви", "stock": true },
-      { "name": "🌿 Свежая мята", "stock": true },
-      { "name": "🍑 Персик лёд", "stock": true },
-      { "name": "🍏 Кислое яблоко", "stock": true },
-      { "name": "🍇 Клубника виноград", "stock": true },
-      { "name": "🥤 Вишнёвая кола", "stock": true },
-      { "name": "🍬 Арбузная жвачка", "stock": true },
-      { "name": "🫐 Ягодный Микс", "stock": true },
-      { "name": "❄️ Мятный арбуз", "stock": true },
-      { "name": "🍭 Чупа чупс клубника малина", "stock": true }
-    ]
-  },
-  {
-    "name": "WAKA Slim 8000",
-    "specs": "5% | 8 000 тяг",
-    "price": "11 000",
-    "flavors": [
-      { "name": "🌿 СВЕЖАЯ МЯТА", "stock": true },
-      { "name": "🥭 МАНГО СО ЛЬДОМ", "stock": true }
-    ]
-  },
-  {
-    "name": "FUNKY LANDS TI 7000",
-    "specs": "5% | 7 000 тяг",
-    "price": "8 000",
-    "flavors": [
-      { "name": "🍌 КЛУБНИКА БАНАН", "stock": false },
-      { "name": "🌿 ЦВЕТУЩАЯ МЯТА", "stock": false },
-      { "name": "🍏 КАНТАЛУПА ЯБЛОКО", "stock": true }
+      { "name": "🟡 Желтый (цвет)", "stock": true }
     ]
   },
   {
     "name": "Жидкость Gang",
     "specs": "30 мл",
-    "price": "5500",
+    "price": "0",
     "flavors": [
       { "name": "🍌🥭 Банан манго", "stock": true },
       { "name": "🍇🫐 Виноград смородина", "stock": true },
@@ -124,6 +30,40 @@
       { "name": "🥤🫐 Ягодная кола", "stock": true },
       { "name": "🥝🥭 Киви манго", "stock": true },
       { "name": "🫐🍓 Черника малина", "stock": true }
+    ]
+  },
+  {
+    "name": "MAXGO 33K Switch",
+    "specs": "18mg/ml | 33 000 тяг (Переключатель вкусов)",
+    "price": "14 000",
+    "flavors": [
+      { "name": "🫐 Blueberry Sour Raspberry / Blue Raspberry GB / Double Razz Edition", "stock": true },
+      { "name": "🫐 Blueberry Sour Raspberry / Mr. Blue / Blue Edition", "stock": true },
+      { "name": "🍉 Watermelon / Strawberry Watermelon / Watermelon Edition", "stock": true },
+      { "name": "🍬 Huhubaba / Sour BBG / Sweets Edition", "stock": true },
+      { "name": "🍋 Pineapple Ice / Lemon Lime / Lemon Edition", "stock": true }
+    ]
+  },
+  {
+    "name": "WAKA 9000",
+    "specs": "5% | 9 000 тяг",
+    "price": "11 500",
+    "flavors": [
+      { "name": "🍑 Персик лёд", "stock": true },
+      { "name": "🌿 Свежая мята", "stock": true },
+      { "name": "🍭 Чупачупс клубника малина", "stock": true }
+    ]
+  },
+  {
+    "name": "FUNKY LANDS TI 7000",
+    "specs": "5% | 7 000 тяг",
+    "price": "8 000",
+    "flavors": [
+      { "name": "🏝️ Тропический остров", "stock": true },
+      { "name": "🌹 Черника роза мята", "stock": true },
+      { "name": "🍇 Помело перл виноград", "stock": true },
+      { "name": "🍋 Маракуйя киви лайм", "stock": true },
+      { "name": "🥥 Ледяной ананас и кокос", "stock": true }
     ]
   }
 ]
