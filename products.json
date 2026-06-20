@@ -19,7 +19,7 @@
   {
     "name": "Жидкость Gang",
     "specs": "30 мл",
-    "price": "0",
+    "price": "5500",
     "flavors": [
       { "name": "🍌🥭 Банан манго", "stock": true },
       { "name": "🍇🫐 Виноград смородина", "stock": true },
