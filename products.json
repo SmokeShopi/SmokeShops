@@ -11,7 +11,7 @@
   {
     "name": "Brusko Minican Lite",
     "specs": "Под-система",
-    "price": "14 000",
+    "price": "12000",
     "flavors": [
       { "name": "🟡 Желтый (цвет)", "stock": true }
     ]
@@ -19,7 +19,7 @@
   {
     "name": "Жидкость Gang",
     "specs": "30 мл",
-    "price": "5500",
+    "price": "5 500",
     "flavors": [
       { "name": "🍌🥭 Банан манго", "stock": true },
       { "name": "🍇🫐 Виноград смородина", "stock": true },
@@ -42,6 +42,17 @@
       { "name": "🍉 Watermelon / Strawberry Watermelon / Watermelon Edition", "stock": true },
       { "name": "🍬 Huhubaba / Sour BBG / Sweets Edition", "stock": true },
       { "name": "🍋 Pineapple Ice / Lemon Lime / Lemon Edition", "stock": true }
+    ]
+  },
+  {
+    "name": "GEEK BAR PULSE X",
+    "specs": "15 000 (Pulse) / 25 000 (Regular)",
+    "price": "12 000",
+    "flavors": [
+      { "name": "🍏 Ледяное кислое яблоко", "stock": true },
+      { "name": "🥭 Кислые манго ананас", "stock": true },
+      { "name": "🍭 Кисло-сладкие леденцы", "stock": true },
+      { "name": "🍋 Кислая лимонная конфета", "stock": true }
     ]
   },
   {
