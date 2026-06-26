@@ -11,7 +11,7 @@
   {
     "name": "Brusko Minican Lite",
     "specs": "Под-система",
-    "price": "12000",
+    "price": "12 000",
     "flavors": [
       { "name": "🟡 Желтый (цвет)", "stock": true }
     ]
@@ -75,6 +75,20 @@
       { "name": "🍇 Помело перл виноград", "stock": true },
       { "name": "🍋 Маракуйя киви лайм", "stock": true },
       { "name": "🥥 Ледяной ананас и кокос", "stock": true }
+    ]
+  },
+  {
+    "name": "Kasta",
+    "specs": "Снюс",
+    "price": "4500",
+    "flavors": [
+      { "name": "🔴 Puck", "stock": true },
+      { "name": "🍓 Тульский ром клубнично-малиновая конфета", "stock": true },
+      { "name": "🦊 Naruto", "stock": true },
+      { "name": "✨ Dazzle", "stock": true },
+      { "name": "⚡ Minato", "stock": true },
+      { "name": "👁️ Kakashi", "stock": true },
+      { "name": "🔥 Itachi", "stock": true }
     ]
   }
 ]
