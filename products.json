@@ -56,6 +56,30 @@
     ]
   },
   {
+    "name": "WAKA soPro 20000",
+    "specs": "5% | 20 000 тяг",
+    "price": "15 000",
+    "flavors": [
+      { "name": "🍉❄️ WATERMELON CHILL", "stock": true },
+      { "name": "🫐🍓 TRIPLE BERRY", "stock": true },
+      { "name": "🌸🍇 SAKURA GRAPE", "stock": true },
+      { "name": "🫐🍒 BLUE RAZZ BLACKBERRY", "stock": true },
+      { "name": "🍒🍇 CRANBERRY GRAPE", "stock": true },
+      { "name": "🍓🥝 STRAWBERRY KIWI", "stock": true },
+      { "name": "🍓🍒 STRAWBERRY RASPBERRY", "stock": true },
+      { "name": "🍓🍇 STRAWBERRY GRAPE", "stock": true },
+      { "name": "🍉🍒 WATERMELON CHERRY", "stock": true },
+      { "name": "🌿🫐 BLUE RASPBERRY MINT", "stock": true },
+      { "name": "🍒❄️ DARK CHERRY", "stock": true },
+      { "name": "🫐🍒 BLUEBERRY CRANBERRY CHERRY", "stock": true },
+      { "name": "🍓🍉 STRAWBERRY WATERMELON", "stock": true },
+      { "name": "🥤⚡ RASPBERRY DARK SPARKLE", "stock": true },
+      { "name": "🥝🥭 KIWI PASSION GUAVA", "stock": true },
+      { "name": "⚡❄️ VIMBULL ICE", "stock": true },
+      { "name": "🫐🍒 BLUEBERRY RASPBERRY", "stock": true }
+    ]
+  },
+  {
     "name": "WAKA 9000",
     "specs": "5% | 9 000 тяг",
     "price": "11 500",
@@ -80,7 +104,7 @@
   {
     "name": "Kasta",
     "specs": "Снюс",
-    "price": "4500",
+    "price": "4 500",
     "flavors": [
       { "name": "🔴 Puck", "stock": true },
       { "name": "🍓 Тульский ром клубнично-малиновая конфета", "stock": true },
