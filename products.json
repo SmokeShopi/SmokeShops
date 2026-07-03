@@ -80,13 +80,11 @@
     ]
   },
   {
-    "name": "WAKA 9000",
-    "specs": "5% | 9 000 тяг",
-    "price": "11 500",
+    "name": "Картидж XROS series",
+    "specs": "1 картридж,
+    "price": "2000",
     "flavors": [
-      { "name": "🍑 Персик лёд", "stock": true },
-      { "name": "🌿 Свежая мята", "stock": true },
-      { "name": "🍭 Чупачупс клубника малина", "stock": true }
+      { "name": "💨 Картридж", "stock": true }
     ]
   },
   {
