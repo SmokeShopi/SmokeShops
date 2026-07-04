@@ -17,6 +17,14 @@
     ]
   },
   {
+    "name": "Картидж XROS series",
+    "specs": "1 картридж",
+    "price": "2 000",
+    "flavors": [
+      { "name": "💨 Картридж", "stock": true }
+    ]
+  },
+  {
     "name": "Жидкость Gang",
     "specs": "30 мл",
     "price": "5 500",
@@ -80,11 +88,13 @@
     ]
   },
   {
-    "name": "Картидж XROS series",
-    "specs": "1 картридж,
-    "price": "2000",
+    "name": "WAKA 9000",
+    "specs": "5% | 9 000 тяг",
+    "price": "11 500",
     "flavors": [
-      { "name": "💨 Картридж", "stock": true }
+      { "name": "🍑 Персик лёд", "stock": true },
+      { "name": "🌿 Свежая мята", "stock": true },
+      { "name": "🍭 Чупачупс клубника малина", "stock": true }
     ]
   },
   {
