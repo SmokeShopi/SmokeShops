@@ -64,6 +64,23 @@
     ]
   },
   {
+    "name": "ELFBAR GH 23000",
+    "specs": "5% | 23 000 тяг",
+    "price": "13 000",
+    "flavors": [
+      { "name": "🫐❄️ Кислая ежевика лёд", "stock": true },
+      { "name": "🍊 Апельсиновый всплеск", "stock": true },
+      { "name": "🍑🥭 Персик манго", "stock": true },
+      { "name": "🍉🍋 Арбуз лайм", "stock": true },
+      { "name": "🍊❄️ Грейпфрут лёд", "stock": true },
+      { "name": "🍇❄️ Ледяной виноград", "stock": true },
+      { "name": "🍓🍌 Клубника банан", "stock": true },
+      { "name": "🥝🐉 Киви питайя", "stock": true },
+      { "name": "🫐🍐 Черника груша", "stock": true },
+      { "name": "🍍❄️ Кислый ананас лёд", "stock": true }
+    ]
+  },
+  {
     "name": "WAKA soPro 20000",
     "specs": "5% | 20 000 тяг",
     "price": "15 000",
@@ -102,11 +119,7 @@
     "specs": "5% | 7 000 тяг",
     "price": "8 000",
     "flavors": [
-      { "name": "🏝️ Тропический остров", "stock": true },
-      { "name": "🌹 Черника роза мята", "stock": true },
-      { "name": "🍇 Помело перл виноград", "stock": true },
-      { "name": "🍋 Маракуйя киви лайм", "stock": true },
-      { "name": "🥥 Ледяной ананас и кокос", "stock": true }
+      { "name": "🌹 Черника роза мята", "stock": true }
     ]
   },
   {
