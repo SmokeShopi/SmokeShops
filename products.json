@@ -41,15 +41,24 @@
     ]
   },
   {
+    "name": "WAKA 38000",
+    "specs": "5% | 38 000 тяг",
+    "price": "16 000",
+    "flavors": [
+      { "name": "🍓🍉❄️ Клубника арбуз + лёд микс", "stock": true },
+      { "name": "🍋🍋‍🟩🌿 Лимон лайм + ментол микс", "stock": true },
+      { "name": "🫐🍓❄️ Черника малина + лёд микс", "stock": true },
+      { "name": "🥤🍋 Кола + лимон микс", "stock": true },
+      { "name": "🍇🍬❄️ Виноградная конфета + лёд микс", "stock": true }
+    ]
+  },
+  {
     "name": "MAXGO 33K Switch",
     "specs": "18mg/ml | 33 000 тяг (Переключатель вкусов)",
     "price": "14 000",
     "flavors": [
-      { "name": "🫐 Blueberry Sour Raspberry / Blue Raspberry GB / Double Razz Edition", "stock": true },
-      { "name": "🫐 Blueberry Sour Raspberry / Mr. Blue / Blue Edition", "stock": true },
-      { "name": "🍉 Watermelon / Strawberry Watermelon / Watermelon Edition", "stock": true },
-      { "name": "🍬 Huhubaba / Sour BBG / Sweets Edition", "stock": true },
-      { "name": "🍋 Pineapple Ice / Lemon Lime / Lemon Edition", "stock": true }
+      { "name": "🍬 Huhubaba Sour BBG Sweets Shock Edition", "stock": true },
+      { "name": "🍉🍓 Watermelon Strawberry Watermelon Edition", "stock": true }
     ]
   },
   {
@@ -57,10 +66,7 @@
     "specs": "15 000 (Pulse) / 25 000 (Regular)",
     "price": "12 000",
     "flavors": [
-      { "name": "🍏 Ледяное кислое яблоко", "stock": true },
-      { "name": "🥭 Кислые манго ананас", "stock": true },
-      { "name": "🍭 Кисло-сладкие леденцы", "stock": true },
-      { "name": "🍋 Кислая лимонная конфета", "stock": true }
+      { "name": "🍏❄️ Ледяное кислое яблоко", "stock": true }
     ]
   },
   {
@@ -68,40 +74,41 @@
     "specs": "5% | 23 000 тяг",
     "price": "13 500",
     "flavors": [
-      { "name": "🫐❄️ Кислая ежевика лёд", "stock": true },
       { "name": "🍊 Апельсиновый всплеск", "stock": true },
-      { "name": "🍑🥭 Персик манго", "stock": true },
-      { "name": "🍉🍋 Арбуз лайм", "stock": true },
-      { "name": "🍊❄️ Грейпфрут лёд", "stock": true },
-      { "name": "🍇❄️ Ледяной виноград", "stock": true },
-      { "name": "🍓🍌 Клубника банан", "stock": true },
       { "name": "🥝🐉 Киви питайя", "stock": true },
-      { "name": "🫐🍐 Черника груша", "stock": true },
-      { "name": "🍍❄️ Кислый ананас лёд", "stock": true }
+      { "name": "🍓🍌 Клубника банан", "stock": true },
+      { "name": "🍇❄️ Ледяной виноград", "stock": true },
+      { "name": "🍋‍🟩🍊❄️ Лайм грейпфрут лёд", "stock": true },
+      { "name": "🍍🫐🍋‍🟩🌿 Ананас сливы лайм мята", "stock": true }
     ]
   },
   {
     "name": "WAKA soPro 20000",
     "specs": "5% | 20 000 тяг",
-    "price": "15 000",
+    "price": "14 000",
     "flavors": [
-      { "name": "🍉❄️ WATERMELON CHILL", "stock": true },
-      { "name": "🫐🍓 TRIPLE BERRY", "stock": true },
-      { "name": "🌸🍇 SAKURA GRAPE", "stock": true },
-      { "name": "🫐🍒 BLUE RAZZ BLACKBERRY", "stock": true },
-      { "name": "🍒🍇 CRANBERRY GRAPE", "stock": true },
-      { "name": "🍓🥝 STRAWBERRY KIWI", "stock": true },
-      { "name": "🍓🍒 STRAWBERRY RASPBERRY", "stock": true },
-      { "name": "🍓🍇 STRAWBERRY GRAPE", "stock": true },
-      { "name": "🍉🍒 WATERMELON CHERRY", "stock": true },
-      { "name": "🌿🫐 BLUE RASPBERRY MINT", "stock": true },
-      { "name": "🍒❄️ DARK CHERRY", "stock": true },
-      { "name": "🫐🍒 BLUEBERRY CRANBERRY CHERRY", "stock": true },
-      { "name": "🍓🍉 STRAWBERRY WATERMELON", "stock": true },
-      { "name": "🥤⚡ RASPBERRY DARK SPARKLE", "stock": true },
       { "name": "🥝🥭 KIWI PASSION GUAVA", "stock": true },
+      { "name": "🍒❄️ DARK CHERRY", "stock": true },
+      { "name": "🍉🍒 WATERMELON CHERRY", "stock": true },
+      { "name": "🫐🍓 TRIPLE BERRY", "stock": true },
+      { "name": "🍓🥝 STRAWBERRY KIWI", "stock": true },
+      { "name": "🍓🍇 STRAWBERRY GRAPE", "stock": true },
+      { "name": "🍉❄️ WATERMELON CHILL", "stock": true },
+      { "name": "🍓🍉 STRAWBERRY WATERMELON", "stock": true },
+      { "name": "🫐🍒 BLUEBERRY RASPBERRY", "stock": true },
       { "name": "⚡❄️ VIMBULL ICE", "stock": true },
-      { "name": "🫐🍒 BLUEBERRY RASPBERRY", "stock": true }
+      { "name": "🫐🍒 BLUE RAZZ BLACKBERRY", "stock": true },
+      { "name": "🥤⚡ RASPBERRY DARK SPARKLE", "stock": true },
+      { "name": "🫐🍒 BLUEBERRY CRANBERRY CHERRY", "stock": true },
+      { "name": "🌿🫐 BLUE RASPBERRY MINT", "stock": true }
+    ]
+  },
+  {
+    "name": "WAKA X LAND 15000",
+    "specs": "5% | 15 000 тяг",
+    "price": "12 500",
+    "flavors": [
+      { "name": "🍏 Кислое яблоко", "stock": true }
     ]
   },
   {
@@ -112,6 +119,15 @@
       { "name": "🍑 Персик лёд", "stock": false },
       { "name": "🌿 Свежая мята", "stock": false },
       { "name": "🍭 Чупачупс клубника малина", "stock": false }
+    ]
+  },
+  {
+    "name": "WAKA 8000",
+    "specs": "5% | 8 000 тяг",
+    "price": "9 500",
+    "flavors": [
+      { "name": "🍋🍉 Лимон арбуз", "stock": true },
+      { "name": "🫐🍓🍑 Черника малина персик", "stock": true }
     ]
   },
   {
