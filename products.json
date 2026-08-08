@@ -72,7 +72,7 @@
   {
     "name": "ELFBAR GH 23000",
     "specs": "5% | 23 000 тяг",
-    "price": "13 500",
+    "price": "13 000",
     "flavors": [
       { "name": "🍊 Апельсиновый всплеск", "stock": true },
       { "name": "🥝🐉 Киви питайя", "stock": true },
@@ -106,7 +106,7 @@
   {
     "name": "WAKA X LAND 15000",
     "specs": "5% | 15 000 тяг",
-    "price": "12 500",
+    "price": "13 000",
     "flavors": [
       { "name": "🍏 Кислое яблоко", "stock": true }
     ]
@@ -124,7 +124,7 @@
   {
     "name": "WAKA 8000",
     "specs": "5% | 8 000 тяг",
-    "price": "9 500",
+    "price": "10 500",
     "flavors": [
       { "name": "🍋🍉 Лимон арбуз", "stock": true },
       { "name": "🫐🍓🍑 Черника малина персик", "stock": true }
