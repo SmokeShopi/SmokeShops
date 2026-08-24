@@ -66,10 +66,20 @@
     "specs": "5% | 20 000 тяг",
     "price": "14 500",
     "flavors": [
+      { "name": "🥝🥭 KIWI PASSION GUAVA", "stock": true },
+      { "name": "🍒❄️ DARK CHERRY", "stock": true },
       { "name": "🍉🍒 WATERMELON CHERRY", "stock": true },
+      { "name": "🫐🍓 TRIPLE BERRY", "stock": true },
       { "name": "🍓🥝 STRAWBERRY KIWI", "stock": true },
-      { "name": "🍉❄️ WATERMELON CHILL", "stock": true },
       { "name": "🍓🍇 STRAWBERRY GRAPE", "stock": true },
+      { "name": "🍉❄️ WATERMELON CHILL", "stock": true },
+      { "name": "🍓🍉 STRAWBERRY WATERMELON", "stock": true },
+      { "name": "🫐🍒 BLUEBERRY RASPBERRY", "stock": true },
+      { "name": "⚡❄️ VIMBULL ICE", "stock": true },
+      { "name": "🫐🍒 BLUE RAZZ BLACKBERRY", "stock": true },
+      { "name": "🥤⚡ RASPBERRY DARK SPARKLE", "stock": true },
+      { "name": "🫐🍒 BLUEBERRY CRANBERRY CHERRY", "stock": true },
+      { "name": "🌿🫐 BLUE RASPBERRY MINT", "stock": true },
       { "name": "🍒🍇 CRANBERRY GRAPE", "stock": true }
     ]
   },
