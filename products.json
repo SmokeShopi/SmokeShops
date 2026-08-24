@@ -62,45 +62,15 @@
     ]
   },
   {
-    "name": "GEEK BAR PULSE X",
-    "specs": "15 000 (Pulse) / 25 000 (Regular)",
-    "price": "12 000",
-    "flavors": [
-      { "name": "🍏❄️ Ледяное кислое яблоко", "stock": true }
-    ]
-  },
-  {
-    "name": "ELFBAR GH 23000",
-    "specs": "5% | 23 000 тяг",
-    "price": "13 500",
-    "flavors": [
-      { "name": "🍊 Апельсиновый всплеск", "stock": true },
-      { "name": "🥝🐉 Киви питайя", "stock": true },
-      { "name": "🍓🍌 Клубника банан", "stock": true },
-      { "name": "🍇❄️ Ледяной виноград", "stock": true },
-      { "name": "🍋‍🟩🍊❄️ Лайм грейпфрут лёд", "stock": true },
-      { "name": "🍍🫐🍋‍🟩🌿 Ананас сливы лайм мята", "stock": true }
-    ]
-  },
-  {
     "name": "WAKA soPro 20000",
     "specs": "5% | 20 000 тяг",
     "price": "14 500",
     "flavors": [
-      { "name": "🥝🥭 KIWI PASSION GUAVA", "stock": true },
-      { "name": "🍒❄️ DARK CHERRY", "stock": true },
       { "name": "🍉🍒 WATERMELON CHERRY", "stock": true },
-      { "name": "🫐🍓 TRIPLE BERRY", "stock": true },
       { "name": "🍓🥝 STRAWBERRY KIWI", "stock": true },
-      { "name": "🍓🍇 STRAWBERRY GRAPE", "stock": true },
       { "name": "🍉❄️ WATERMELON CHILL", "stock": true },
-      { "name": "🍓🍉 STRAWBERRY WATERMELON", "stock": true },
-      { "name": "🫐🍒 BLUEBERRY RASPBERRY", "stock": true },
-      { "name": "⚡❄️ VIMBULL ICE", "stock": true },
-      { "name": "🫐🍒 BLUE RAZZ BLACKBERRY", "stock": true },
-      { "name": "🥤⚡ RASPBERRY DARK SPARKLE", "stock": true },
-      { "name": "🫐🍒 BLUEBERRY CRANBERRY CHERRY", "stock": true },
-      { "name": "🌿🫐 BLUE RASPBERRY MINT", "stock": true }
+      { "name": "🍓🍇 STRAWBERRY GRAPE", "stock": true },
+      { "name": "🍒🍇 CRANBERRY GRAPE", "stock": true }
     ]
   },
   {
@@ -109,6 +79,23 @@
     "price": "13 000",
     "flavors": [
       { "name": "🍏 Кислое яблоко", "stock": true }
+    ]
+  },
+  {
+    "name": "WAKA 10000",
+    "specs": "5% | 10 000 тяг",
+    "price": "12 000",
+    "flavors": [
+      { "name": "🍒 Вишня", "stock": true },
+      { "name": "🍓🥝 Клубника киви", "stock": true },
+      { "name": "🍓🍉 Клубника арбуз", "stock": true },
+      { "name": "🫐🍓 Тройная ягода", "stock": true },
+      { "name": "🫐 Чёрная смородина ягоды", "stock": true },
+      { "name": "🍬 Мармелад", "stock": true },
+      { "name": "🍋🍉 Лимон арбуз", "stock": true },
+      { "name": "🍓🍒 Клубника малина вишня", "stock": true },
+      { "name": "🥤🌿 Малина мохито", "stock": true },
+      { "name": "🍒🍇 Клюква виноград", "stock": true }
     ]
   },
   {
