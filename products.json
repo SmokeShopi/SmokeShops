@@ -1,23 +1,23 @@
 [
   {
-    "name": "BRUSKO MINICAN-5",
+    "name": "BRUSKO MINICAN 5",
     "specs": "Под-система",
     "price": "15 000",
     "flavors": [
-      { "name": "🟢 Зеленый (цвет)", "stock": true },
-      { "name": "🔴 Красный (цвет)", "stock": true }
+      { "name": "🟢 Зеленый", "stock": true },
+      { "name": "🔴 Красный", "stock": true }
     ]
   },
   {
-    "name": "Brusko Minican Lite",
+    "name": "BRUSKO MINICAN LITE",
     "specs": "Под-система",
     "price": "12 000",
     "flavors": [
-      { "name": "🟡 Желтый (цвет)", "stock": true }
+      { "name": "🟡 Желтый", "stock": true }
     ]
   },
   {
-    "name": "Картидж XROS series",
+    "name": "VAPORESSO XROS Series 0.6 MESH POD",
     "specs": "1 картридж",
     "price": "2 000",
     "flavors": [
@@ -25,19 +25,20 @@
     ]
   },
   {
-    "name": "Жидкость Gang",
+    "name": "Жидкость GANGLIQUID gang Classic",
     "specs": "30 мл",
     "price": "5 500",
     "flavors": [
       { "name": "🍌🥭 Банан манго", "stock": true },
-      { "name": "🍇🫐 Виноград смородина", "stock": true },
-      { "name": "🍋❄️ Замороженные лимонные леденцы", "stock": true },
-      { "name": "🍏🥤 Замороженная яблочная фанта", "stock": true },
-      { "name": "🥤🌴 Тропическая кола", "stock": true },
-      { "name": "🍒❄️ Замороженный вишневый спрайт", "stock": true },
-      { "name": "🥤🫐 Ягодная кола", "stock": true },
-      { "name": "🥝🥭 Киви манго", "stock": true },
-      { "name": "🫐🍓 Черника малина", "stock": true }
+      { "name": "🥤🌴 Тропическая кола", "stock": true }
+    ]
+  },
+  {
+    "name": "Жидкость gang FROZEN",
+    "specs": "30 мл",
+    "price": "5 500",
+    "flavors": [
+      { "name": "🍋❄️ Замороженные лимонные леденцы", "stock": true }
     ]
   },
   {
@@ -45,20 +46,15 @@
     "specs": "5% | 38 000 тяг",
     "price": "16 000",
     "flavors": [
+      { "name": "🍏❄️ Кислое яблоко + лёд микс", "stock": true },
+      { "name": "🍇🍊🥤 Виноград грейпфрут + лаймовая содовая микс", "stock": true },
+      { "name": "🫐🍓❄️ Тройная ягода + лёд микс", "stock": true },
       { "name": "🍓🍉❄️ Клубника арбуз + лёд микс", "stock": true },
-      { "name": "🍋🍋‍🟩🌿 Лимон лайм + ментол микс", "stock": true },
       { "name": "🫐🍓❄️ Черника малина + лёд микс", "stock": true },
-      { "name": "🥤🍋 Кола + лимон микс", "stock": true },
-      { "name": "🍇🍬❄️ Виноградная конфета + лёд микс", "stock": true }
-    ]
-  },
-  {
-    "name": "MAXGO 33K Switch",
-    "specs": "18mg/ml | 33 000 тяг (Переключатель вкусов)",
-    "price": "14 000",
-    "flavors": [
-      { "name": "🍬 Huhubaba Sour BBG Sweets Shock Edition", "stock": true },
-      { "name": "🍉🍓 Watermelon Strawberry Watermelon Edition", "stock": true }
+      { "name": "🫐🍋🥤 Микс ягод + лимонная содовая микс", "stock": true },
+      { "name": "🍋🍋‍🟩🌿 Лимон лайм + ментол микс", "stock": true },
+      { "name": "🍇🍬❄️ Виноградная конфета + лёд микс", "stock": true },
+      { "name": "🥤🍋 Кола + лимон микс", "stock": true }
     ]
   },
   {
@@ -67,20 +63,16 @@
     "price": "14 500",
     "flavors": [
       { "name": "🥝🥭 KIWI PASSION GUAVA", "stock": true },
+      { "name": "🍓🍇 STRAWBERRY GRAPE", "stock": true },
+      { "name": "⚡❄️ VIMBULL ICE", "stock": true },
+      { "name": "🍒🍇 CRANBERRY GRAPE", "stock": true },
+      { "name": "🥤⚡ RASPBERRY DARK SPARKLE", "stock": true },
+      { "name": "🌿🫐 BLUE RASPBERRY MINT", "stock": true },
+      { "name": "🫐🍒 BLUEBERRY CRANBERRY CHERRY", "stock": true },
+      { "name": "🍓🥝 STRAWBERRY KIWI", "stock": true },
       { "name": "🍒❄️ DARK CHERRY", "stock": true },
       { "name": "🍉🍒 WATERMELON CHERRY", "stock": true },
-      { "name": "🫐🍓 TRIPLE BERRY", "stock": true },
-      { "name": "🍓🥝 STRAWBERRY KIWI", "stock": true },
-      { "name": "🍓🍇 STRAWBERRY GRAPE", "stock": true },
-      { "name": "🍉❄️ WATERMELON CHILL", "stock": true },
-      { "name": "🍓🍉 STRAWBERRY WATERMELON", "stock": true },
-      { "name": "🫐🍒 BLUEBERRY RASPBERRY", "stock": true },
-      { "name": "⚡❄️ VIMBULL ICE", "stock": true },
-      { "name": "🫐🍒 BLUE RAZZ BLACKBERRY", "stock": true },
-      { "name": "🥤⚡ RASPBERRY DARK SPARKLE", "stock": true },
-      { "name": "🫐🍒 BLUEBERRY CRANBERRY CHERRY", "stock": true },
-      { "name": "🌿🫐 BLUE RASPBERRY MINT", "stock": true },
-      { "name": "🍒🍇 CRANBERRY GRAPE", "stock": true }
+      { "name": "🫐🍒 BLUEBERRY RASPBERRY", "stock": true }
     ]
   },
   {
@@ -96,43 +88,25 @@
     "specs": "5% | 10 000 тяг",
     "price": "12 000",
     "flavors": [
-      { "name": "🍒 Вишня", "stock": false },
+      { "name": "🍉❄️ Арбуз со льдом", "stock": true },
+      { "name": "⚡ Энергетик", "stock": true },
+      { "name": "🍓🍇 Клубника виноград", "stock": true },
       { "name": "🍓🥝 Клубника киви", "stock": true },
-      { "name": "🍓🍉 Клубника арбуз", "stock": true },
-      { "name": "🫐🍓 Тройная ягода", "stock": false },
-      { "name": "🫐 Чёрная смородина ягоды", "stock": false },
+      { "name": "🍇❄️ Виноград со льдом", "stock": true },
+      { "name": "🍇🫐 Виноград ягоды", "stock": true },
       { "name": "🍬 Мармелад", "stock": true },
-      { "name": "🍋🍉 Лимон арбуз", "stock": true },
-      { "name": "🍓🍒 Клубника малина вишня", "stock": false },
-      { "name": "🥤🌿 Малина мохито", "stock": true },
-      { "name": "🍒🍇 Клюква виноград", "stock": true }
+      { "name": "🌿 Свежая мята", "stock": true },
+      { "name": "🍒 Вишня", "stock": true }
     ]
   },
   {
-    "name": "WAKA 9000",
-    "specs": "5% | 9 000 тяг | отсутствует",
-    "price": "11 500",
+    "name": "iMate X",
+    "specs": "Одноразовая электронная сигарета",
+    "price": "10 000",
     "flavors": [
-      { "name": "🍑 Персик лёд", "stock": false },
-      { "name": "🌿 Свежая мята", "stock": false },
-      { "name": "🍭 Чупачупс клубника малина", "stock": false }
-    ]
-  },
-  {
-    "name": "WAKA 8000",
-    "specs": "5% | 8 000 тяг",
-    "price": "10 500",
-    "flavors": [
-      { "name": "🍋🍉 Лимон арбуз", "stock": false },
-      { "name": "🫐🍓🍑 Черника малина персик", "stock": false }
-    ]
-  },
-  {
-    "name": "FUNKY LANDS TI 7000",
-    "specs": "5% | 7 000 тяг",
-    "price": "8 000",
-    "flavors": [
-      { "name": "🌹 Черника роза мята", "stock": false }
+      { "name": "🥭🍓 MANGO STRAW", "stock": true },
+      { "name": "🏝️ HAWAII DREAM", "stock": true },
+      { "name": "🍬 SOUR GUSH", "stock": true }
     ]
   },
   {
@@ -140,13 +114,13 @@
     "specs": "Снюс",
     "price": "4 500",
     "flavors": [
-      { "name": "🔴 Puck", "stock": true },
       { "name": "🍓 Тульский ром клубнично-малиновая конфета", "stock": true },
-      { "name": "🦊 Naruto", "stock": true },
-      { "name": "✨ Dazzle", "stock": true },
-      { "name": "⚡ Minato", "stock": true },
-      { "name": "👁️ Kakashi", "stock": true },
-      { "name": "🔥 Itachi", "stock": true }
+      { "name": "🍒 Тамбовский тони вишня на коньяке", "stock": true },
+      { "name": "🦊 NARUTO", "stock": true },
+      { "name": "👤 GUY", "stock": true },
+      { "name": "👁️ KAKASHI", "stock": true },
+      { "name": "✨ DAZZLE", "stock": true },
+      { "name": "🔥 ITACHI", "stock": true }
     ]
   }
 ]
