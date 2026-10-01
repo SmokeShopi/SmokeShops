@@ -26,11 +26,17 @@
   },
   {
     "name": "Жидкость GANGLIQUID gang Classic",
-    "specs": "30 мл",
+    "specs": "30 мл | 20 мг/мл Strong",
     "price": "5 500",
     "flavors": [
+      { "name": "⚡🫐 Энергетика с черникой", "stock": true },
+      { "name": "🍇🫐 Виноград смородины", "stock": true },
       { "name": "🍌🥭 Банан манго", "stock": true },
-      { "name": "🥤🌴 Тропическая кола", "stock": true }
+      { "name": "🥝🥭 Киви манго", "stock": true },
+      { "name": "🫐🖤 Смородина ежевика", "stock": true },
+      { "name": "🍬🌴 Тропическое жвачки", "stock": true },
+      { "name": "🥤🌴 Тропическое колы", "stock": true },
+      { "name": "🍑🟣 Персик сливы", "stock": true }
     ]
   },
   {
@@ -76,37 +82,11 @@
     ]
   },
   {
-    "name": "WAKA X LAND 15000",
-    "specs": "5% | 15 000 тяг",
-    "price": "13 000",
-    "flavors": [
-      { "name": "🍏 Кислое яблоко", "stock": true }
-    ]
-  },
-  {
     "name": "WAKA 10000",
     "specs": "5% | 10 000 тяг",
     "price": "12 000",
     "flavors": [
-      { "name": "🍉❄️ Арбуз со льдом", "stock": true },
-      { "name": "⚡ Энергетик", "stock": true },
-      { "name": "🍓🍇 Клубника виноград", "stock": true },
-      { "name": "🍓🥝 Клубника киви", "stock": true },
-      { "name": "🍇❄️ Виноград со льдом", "stock": true },
-      { "name": "🍇🫐 Виноград ягоды", "stock": true },
-      { "name": "🍬 Мармелад", "stock": true },
-      { "name": "🌿 Свежая мята", "stock": true },
-      { "name": "🍒 Вишня", "stock": true }
-    ]
-  },
-  {
-    "name": "iMate X",
-    "specs": "Одноразовая электронная сигарета",
-    "price": "10 000",
-    "flavors": [
-      { "name": "🥭🍓 MANGO STRAW", "stock": true },
-      { "name": "🏝️ HAWAII DREAM", "stock": true },
-      { "name": "🍬 SOUR GUSH", "stock": true }
+      { "name": "🍓🥝 Клубника киви", "stock": true }
     ]
   },
   {
