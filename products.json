@@ -4,8 +4,8 @@
     "specs": "Под-система",
     "price": "15 000",
     "flavors": [
-      { "name": "🟢 Зеленый", "stock": true },
-      { "name": "🔴 Красный", "stock": true }
+      { "name": "🔴 Красный", "stock": true },
+      { "name": "🟢 Зелёный", "stock": true }
     ]
   },
   {
@@ -13,12 +13,12 @@
     "specs": "Под-система",
     "price": "12 000",
     "flavors": [
-      { "name": "🟡 Желтый", "stock": true }
+      { "name": "🟡 Жёлтый", "stock": true }
     ]
   },
   {
     "name": "VAPORESSO XROS Series 0.6 MESH POD",
-    "specs": "1 картридж",
+    "specs": "картридж",
     "price": "2 000",
     "flavors": [
       { "name": "💨 Картридж", "stock": true }
@@ -27,80 +27,83 @@
   {
     "name": "Жидкость GANGLIQUID gang Classic",
     "specs": "30 мл | 20 мг/мл Strong",
-    "price": "5 500",
+    "price": "5 000",
     "flavors": [
-      { "name": "⚡🫐 Энергетика с черникой", "stock": true },
-      { "name": "🍇🫐 Виноград смородины", "stock": true },
-      { "name": "🍌🥭 Банан манго", "stock": true },
+      { "name": "🍬🌴 Тропическая жвачка", "stock": true },
       { "name": "🥝🥭 Киви манго", "stock": true },
+      { "name": "🍌🥭 Банан манго", "stock": true },
       { "name": "🫐🖤 Смородина ежевика", "stock": true },
-      { "name": "🍬🌴 Тропическое жвачки", "stock": true },
-      { "name": "🥤🌴 Тропическое колы", "stock": true },
-      { "name": "🍑🟣 Персик сливы", "stock": true }
+      { "name": "⚡🫐 Энергетика с черникой", "stock": true },
+      { "name": "🍇🫐 Виноград смородины", "stock": true }
     ]
   },
   {
-    "name": "Жидкость gang FROZEN",
-    "specs": "30 мл",
-    "price": "5 500",
+    "name": "Жидкость GANGLIQUID gang ICE",
+    "specs": "30 мл | 20 мг/мл",
+    "price": "5 000",
     "flavors": [
-      { "name": "🍋❄️ Замороженные лимонные леденцы", "stock": true }
+      { "name": "🍑🟣 Персик сливы", "stock": true }
     ]
   },
   {
     "name": "WAKA 38000",
     "specs": "5% | 38 000 тяг",
-    "price": "16 000",
+    "price": "15 500",
     "flavors": [
+      { "name": "🥤🍋 Кола + лимон микс", "stock": true },
+      { "name": "🍋🌿 Лимон лайм + ментол микс", "stock": true },
       { "name": "🍏❄️ Кислое яблоко + лёд микс", "stock": true },
-      { "name": "🍇🍊🥤 Виноград грейпфрут + лаймовая содовая микс", "stock": true },
-      { "name": "🫐🍓❄️ Тройная ягода + лёд микс", "stock": true },
-      { "name": "🍓🍉❄️ Клубника арбуз + лёд микс", "stock": true },
       { "name": "🫐🍓❄️ Черника малина + лёд микс", "stock": true },
-      { "name": "🫐🍋🥤 Микс ягод + лимонная содовая микс", "stock": true },
-      { "name": "🍋🍋‍🟩🌿 Лимон лайм + ментол микс", "stock": true },
-      { "name": "🍇🍬❄️ Виноградная конфета + лёд микс", "stock": true },
-      { "name": "🥤🍋 Кола + лимон микс", "stock": true }
+      { "name": "🖤🌿 Ежевика + мята микс", "stock": true },
+      { "name": "🫐❄️ Черника + лёд микс", "stock": true },
+      { "name": "🍋🌿 Лимон лайм + мята микс", "stock": true },
+      { "name": "🫐🍊 Черника + апельсин кислый микс", "stock": true },
+      { "name": "🍓🥝❄️ Клубника киви + лёд микс", "stock": true },
+      { "name": "🍇❄️ Виноград + лёд микс", "stock": true },
+      { "name": "🍈🍦 Медовая дыня + ваниль микс", "stock": true },
+      { "name": "🍉🍋 Арбуз + лимон микс", "stock": true },
+      { "name": "🍉❄️ Арбуз + лёд микс", "stock": true },
+      { "name": "🍓🍉❄️ Клубника арбуз + лёд микс", "stock": true }
     ]
   },
   {
     "name": "WAKA soPro 20000",
     "specs": "5% | 20 000 тяг",
-    "price": "14 500",
+    "price": "14 000",
     "flavors": [
-      { "name": "🥝🥭 KIWI PASSION GUAVA", "stock": true },
-      { "name": "🍓🍇 STRAWBERRY GRAPE", "stock": true },
-      { "name": "⚡❄️ VIMBULL ICE", "stock": true },
-      { "name": "🍒🍇 CRANBERRY GRAPE", "stock": true },
-      { "name": "🥤⚡ RASPBERRY DARK SPARKLE", "stock": true },
-      { "name": "🌿🫐 BLUE RASPBERRY MINT", "stock": true },
-      { "name": "🫐🍒 BLUEBERRY CRANBERRY CHERRY", "stock": true },
+      { "name": "🌿 FRESH MINT", "stock": true },
       { "name": "🍓🥝 STRAWBERRY KIWI", "stock": true },
-      { "name": "🍒❄️ DARK CHERRY", "stock": true },
+      { "name": "🫐🍓 TRIPLE BERRY", "stock": true },
+      { "name": "🍓🍇 STRAWBERRY GRAPE", "stock": true },
       { "name": "🍉🍒 WATERMELON CHERRY", "stock": true },
-      { "name": "🫐🍒 BLUEBERRY RASPBERRY", "stock": true }
-    ]
-  },
-  {
-    "name": "WAKA 10000",
-    "specs": "5% | 10 000 тяг",
-    "price": "12 000",
-    "flavors": [
-      { "name": "🍓🥝 Клубника киви", "stock": true }
+      { "name": "🍒🍇 CRANBERRY GRAPE", "stock": true },
+      { "name": "🍓🫐 STRAWBERRY RASPBERRY", "stock": true },
+      { "name": "🫐🫐 BLUEBERRY RASPBERRY", "stock": true },
+      { "name": "🌸🍇 SAKURA GRAPE", "stock": true },
+      { "name": "🍒 DARK CHERRY", "stock": true },
+      { "name": "⚡❄️ VIMBULL ICE", "stock": true },
+      { "name": "🥤 RASPBERRY DARK SPARKLE", "stock": true },
+      { "name": "🍓🍉 STRAWBERRY WATERMELON", "stock": true },
+      { "name": "🥝🥭 KIWI PASSION GUAVA", "stock": true },
+      { "name": "🍉❄️ WATERMELON CHILL", "stock": true },
+      { "name": "💙🖤 BLUE RAZZ BLACKBERRY", "stock": true },
+      { "name": "🫐🍒 BLUEBERRY CRANBERRY CHERRY", "stock": true },
+      { "name": "💙🌿 BLUE RASPBERRY MINT", "stock": true }
     ]
   },
   {
     "name": "Kasta",
     "specs": "Снюс",
-    "price": "4 500",
+    "price": "5 000",
     "flavors": [
-      { "name": "🍓 Тульский ром клубнично-малиновая конфета", "stock": true },
-      { "name": "🍒 Тамбовский тони вишня на коньяке", "stock": true },
-      { "name": "🦊 NARUTO", "stock": true },
-      { "name": "👤 GUY", "stock": true },
       { "name": "👁️ KAKASHI", "stock": true },
+      { "name": "⚡ MINATO", "stock": true },
+      { "name": "👤 GUY", "stock": true },
+      { "name": "🔥 ITACHI", "stock": true },
+      { "name": "🦊 NARUTO", "stock": true },
       { "name": "✨ DAZZLE", "stock": true },
-      { "name": "🔥 ITACHI", "stock": true }
+      { "name": "🍒 Тамбовский тони вишня на коньяке", "stock": true },
+      { "name": "🍓 Тульский ром клубнично-малиновая конфета", "stock": true }
     ]
   }
 ]
