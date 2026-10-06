@@ -3,6 +3,7 @@
     "name": "BRUSKO MINICAN 5",
     "specs": "Под-система",
     "price": "15 000",
+    "image": "image/bruskominican5.jpg",
     "flavors": [
       { "name": "🔴 Красный", "stock": true },
       { "name": "🟢 Зелёный", "stock": true }
@@ -12,6 +13,7 @@
     "name": "BRUSKO MINICAN LITE",
     "specs": "Под-система",
     "price": "12 000",
+    "image": "image/bruskominicanlite.jpeg",
     "flavors": [
       { "name": "🟡 Жёлтый", "stock": true }
     ]
@@ -20,6 +22,7 @@
     "name": "VAPORESSO XROS Series 0.6 MESH POD",
     "specs": "картридж",
     "price": "2 000",
+    "image": "image/xrosseriesmeshpod.jpeg",
     "flavors": [
       { "name": "💨 Картридж", "stock": true }
     ]
@@ -28,6 +31,7 @@
     "name": "Жидкость GANGLIQUID gang Classic",
     "specs": "30 мл | 20 мг/мл Strong",
     "price": "5 000",
+    "image": "image/gang classic.png",
     "flavors": [
       { "name": "🍬🌴 Тропическая жвачка", "stock": true },
       { "name": "🥝🥭 Киви манго", "stock": true },
@@ -41,6 +45,7 @@
     "name": "Жидкость GANGLIQUID gang ICE",
     "specs": "30 мл | 20 мг/мл",
     "price": "5 000",
+    "image": "image/gangice.jpg",
     "flavors": [
       { "name": "🍑🟣 Персик сливы", "stock": true }
     ]
@@ -49,6 +54,7 @@
     "name": "WAKA 38000",
     "specs": "5% | 38 000 тяг",
     "price": "15 500",
+    "image": "image/waka38k.png",
     "flavors": [
       { "name": "🥤🍋 Кола + лимон микс", "stock": true },
       { "name": "🍋🌿 Лимон лайм + ментол микс", "stock": true },
@@ -70,6 +76,7 @@
     "name": "WAKA soPro 20000",
     "specs": "5% | 20 000 тяг",
     "price": "14 000",
+    "image": "image/wakasopro20k.jpeg",
     "flavors": [
       { "name": "🌿 FRESH MINT", "stock": true },
       { "name": "🍓🥝 STRAWBERRY KIWI", "stock": true },
@@ -95,6 +102,7 @@
     "name": "Kasta",
     "specs": "Снюс",
     "price": "5 000",
+    "image": "image/kasta.jpg",
     "flavors": [
       { "name": "👁️ KAKASHI", "stock": true },
       { "name": "⚡ MINATO", "stock": true },
