@@ -1,12 +1,55 @@
+Обновил пути к изображениям для Elfbar 23000 (image/IMG_6162.webp) и WAKA 8000 (image/IMG_6163.jpeg).
+Готовый JSON-каталог:
 [
+  {
+    "name": "WAKA soPro 20000",
+    "specs": "5% | 20 000 тяг",
+    "price": "14 500",
+    "image": "image/wakasopro20k.jpeg",
+    "flavors": [
+      { "name": "⚡❄️ VIMBULL ICE", "stock": true },
+      { "name": "🌿 FRESH MINT", "stock": true },
+      { "name": "🍓🫐 STRAWBERRY RASPBERRY", "stock": true },
+      { "name": "🍒 DARK CHERRY", "stock": true },
+      { "name": "🫐🍓 TRIPLE BERRY", "stock": true },
+      { "name": "💙🌿 BLUE RASPBERRY MINT", "stock": true },
+      { "name": "🌸🍇 SAKURA GRAPE", "stock": true },
+      { "name": "🍓🥝 STRAWBERRY KIWI", "stock": true },
+      { "name": "🍓🍇 STRAWBERRY GRAPE", "stock": true },
+      { "name": "🍓🍉 STRAWBERRY WATERMELON", "stock": true },
+      { "name": "🍉🍒 WATERMELON CHERRY", "stock": true },
+      { "name": "🍒🍇 CRANBERRY GRAPE", "stock": true },
+      { "name": "🫐🍒 BLUEBERRY CRANBERRY CHERRY", "stock": true },
+      { "name": "💙🖤 BLUE RAZZ BLACKBERRY", "stock": true },
+      { "name": "🥤 RASPBERRY DARK SPARKLE", "stock": true }
+    ]
+  },
+  {
+    "name": "WAKA 38000",
+    "specs": "5% | 38 000 тяг",
+    "price": "15 500",
+    "image": "image/waka38k.png",
+    "flavors": [
+      { "name": "🍏❄️ Кислое яблоко + лёд микс", "stock": true },
+      { "name": "🫐❄️ Черника + лёд микс", "stock": true },
+      { "name": "🍓🍉❄️ Клубника арбуз + лёд микс", "stock": true },
+      { "name": "🍇🍬❄️ Виноградная конфета + лёд микс", "stock": true },
+      { "name": "🖤🌿 Ежевика + мята микс", "stock": true },
+      { "name": "🍓🥝❄️ Клубника киви + лёд микс", "stock": true },
+      { "name": "🍇❄️ Виноград + лёд микс", "stock": true },
+      { "name": "🍋🌿 Лимон лайм + ментол микс", "stock": true },
+      { "name": "🫐🍓❄️ Черника малина + лёд микс", "stock": true },
+      { "name": "🥤🍋 Кола + лимон микс", "stock": true }
+    ]
+  },
   {
     "name": "BRUSKO MINICAN 5",
     "specs": "Под-система",
     "price": "15 000",
     "image": "image/bruskominican5.jpg",
     "flavors": [
-      { "name": "🔴 Красный", "stock": true },
-      { "name": "🟢 Зелёный", "stock": true }
+      { "name": "🟢 Зелёный", "stock": true },
+      { "name": "🔴 Красный", "stock": true }
     ]
   },
   {
@@ -19,83 +62,67 @@
     ]
   },
   {
+    "name": "WAKA 8000",
+    "specs": "5% | 8 000 тяг",
+    "price": "10 500",
+    "image": "image/IMG_6163.jpeg",
+    "flavors": [
+      { "name": "🫐 Черника", "stock": true },
+      { "name": "🍏 Кислое яблоко", "stock": true },
+      { "name": "🍒🍋 Вишня лимон", "stock": true },
+      { "name": "🍉❄️ Арбуз со льдом", "stock": true },
+      { "name": "🍓🥝 Клубника киви", "stock": true },
+      { "name": "🍓🍉 Клубника арбуз", "stock": true },
+      { "name": "🍓 Свежая клубника", "stock": true },
+      { "name": "🥭❄️ Манго со льдом", "stock": true },
+      { "name": "🍍❄️ Ананас со льдом", "stock": true },
+      { "name": "🫐🍓🍋 Черника малина лимон", "stock": true },
+      { "name": "🍋🌿 Лимон лайм", "stock": true },
+      { "name": "🫐🍒 Черника вишня", "stock": true },
+      { "name": "🌿 Свежая мята", "stock": true },
+      { "name": "🫐🍓🍑 Черника малина персик", "stock": true },
+      { "name": "🍈 Дыня", "stock": true },
+      { "name": "🥤 Кола", "stock": true },
+      { "name": "🍒 Вишня", "stock": true },
+      { "name": "🍓🍇 Клубника виноград", "stock": true },
+      { "name": "🫐🥤 Морс черная смородина ягоды", "stock": true }
+    ]
+  },
+  {
+    "name": "Elfbar 23000",
+    "specs": "5% | 23 000 тяг",
+    "price": "13 500",
+    "image": "image/IMG_6162.webp",
+    "flavors": [
+      { "name": "🫐🍓❄️ Тройные ягоды лёд", "stock": true },
+      { "name": "🍉❄️ Ледяной арбуз", "stock": true },
+      { "name": "🍍🍑🍋🌿 Ананас слива лайм мята", "stock": true },
+      { "name": "🌊 Баха сплеш", "stock": true },
+      { "name": "🍊💥 Апельсиновый всплеск", "stock": true },
+      { "name": "🍓🍌 Клубника банан", "stock": true },
+      { "name": "🥝🐉 Киви питайя", "stock": true },
+      { "name": "🖤❄️ Кислая ежевика лёд", "stock": true },
+      { "name": "🍋🍊❄️ Лайм грейпфрут лёд", "stock": true },
+      { "name": "🍇❄️ Ледяной виноград", "stock": true },
+      { "name": "🍏❄️ Зелёное яблоко лёд", "stock": true },
+      { "name": "🍑🥭🍉 Персик манго арбуз", "stock": true },
+      { "name": "🥝🍋❄️ Киви лайм лёд", "stock": true },
+      { "name": "🌿 Мята", "stock": true },
+      { "name": "🍓❄️ Клубника лёд", "stock": true },
+      { "name": "🫐🍐 Черника груша", "stock": true },
+      { "name": "🫐🍓❄️ Черника малина лёд", "stock": true },
+      { "name": "🍋🥤 Лайм лимонад", "stock": true },
+      { "name": "🍍❄️ Кислый ананас лёд", "stock": true },
+      { "name": "🌸🍇 Сакура виноград", "stock": true }
+    ]
+  },
+  {
     "name": "VAPORESSO XROS Series 0.6 MESH POD",
-    "specs": "картридж",
+    "specs": "картридж | 2 мл | 3.0 COREX",
     "price": "2 000",
     "image": "image/xrosseriesmeshpod.jpeg",
     "flavors": [
-      { "name": "💨 Картридж", "stock": true }
-    ]
-  },
-  {
-    "name": "Жидкость GANGLIQUID gang Classic",
-    "specs": "30 мл | 20 мг/мл Strong",
-    "price": "5 000",
-    "image": "image/gang classic.png",
-    "flavors": [
-      { "name": "🍬🌴 Тропическая жвачка", "stock": false },
-      { "name": "🥝🥭 Киви манго", "stock": false },
-      { "name": "🍌🥭 Банан манго", "stock": false },
-      { "name": "🫐🖤 Смородина ежевика", "stock": false },
-      { "name": "⚡🫐 Энергетика с черникой", "stock": false },
-      { "name": "🍇🫐 Виноград смородины", "stock": false }
-    ]
-  },
-  {
-    "name": "Жидкость GANGLIQUID gang ICE",
-    "specs": "30 мл | 20 мг/мл",
-    "price": "5 000",
-    "image": "image/gangice.jpg",
-    "flavors": [
-      { "name": "🍑🟣 Персик сливы", "stock": false }
-    ]
-  },
-  {
-    "name": "WAKA 38000",
-    "specs": "5% | 38 000 тяг",
-    "price": "15 500",
-    "image": "image/waka38k.png",
-    "flavors": [
-      { "name": "🥤🍋 Кола + лимон микс", "stock": true },
-      { "name": "🍋🌿 Лимон лайм + ментол микс", "stock": true },
-      { "name": "🍏❄️ Кислое яблоко + лёд микс", "stock": true },
-      { "name": "🫐🍓❄️ Черника малина + лёд микс", "stock": true },
-      { "name": "🖤🌿 Ежевика + мята микс", "stock": true },
-      { "name": "🫐❄️ Черника + лёд микс", "stock": true },
-      { "name": "🍋🌿 Лимон лайм + мята микс", "stock": true },
-      { "name": "🫐🍊 Черника + апельсин кислый микс", "stock": true },
-      { "name": "🍓🥝❄️ Клубника киви + лёд микс", "stock": true },
-      { "name": "🍇❄️ Виноград + лёд микс", "stock": true },
-      { "name": "🍈🍦 Медовая дыня + ваниль микс", "stock": true },
-      { "name": "🍉🍋 Арбуз + лимон микс", "stock": true },
-      { "name": "🍉❄️ Арбуз + лёд микс", "stock": true },
-      { "name": "🍓🍉❄️ Клубника арбуз + лёд микс", "stock": true }
-    ]
-  },
-  {
-    "name": "WAKA soPro 20000",
-    "specs": "5% | 20 000 тяг",
-    "price": "14 000",
-    "image": "image/wakasopro20k.jpeg",
-    "flavors": [
-      { "name": "🌿 FRESH MINT", "stock": true },
-      { "name": "🍓🥝 STRAWBERRY KIWI", "stock": true },
-      { "name": "🫐🍓 TRIPLE BERRY", "stock": true },
-      { "name": "🍓🍇 STRAWBERRY GRAPE", "stock": true },
-      { "name": "🍉🍒 WATERMELON CHERRY", "stock": true },
-      { "name": "🍒🍇 CRANBERRY GRAPE", "stock": true },
-      { "name": "🍓🫐 STRAWBERRY RASPBERRY", "stock": true },
-      { "name": "🫐🫐 BLUEBERRY RASPBERRY", "stock": true },
-      { "name": "🌸🍇 SAKURA GRAPE", "stock": true },
-      { "name": "🍒 DARK CHERRY", "stock": true },
-      { "name": "⚡❄️ VIMBULL ICE", "stock": true },
-      { "name": "🥤 RASPBERRY DARK SPARKLE", "stock": true },
-      { "name": "🍓🍉 STRAWBERRY WATERMELON", "stock": true },
-      { "name": "🥝🥭 KIWI PASSION GUAVA", "stock": true },
-      { "name": "🍉❄️ WATERMELON CHILL", "stock": true },
-      { "name": "💙🖤 BLUE RAZZ BLACKBERRY", "stock": true },
-      { "name": "🫐🍒 BLUEBERRY CRANBERRY CHERRY", "stock": true },
-      { "name": "💙🌿 BLUE RASPBERRY MINT", "stock": true }
+      { "name": "💨 Картридж 0.6 Ом (1 шт)", "stock": true }
     ]
   },
   {
@@ -104,14 +131,15 @@
     "price": "4 000",
     "image": "image/kasta.jpg",
     "flavors": [
-      { "name": "👁️ KAKASHI", "stock": true },
-      { "name": "⚡ MINATO", "stock": true },
-      { "name": "👤 GUY", "stock": true },
       { "name": "🔥 ITACHI", "stock": true },
       { "name": "🦊 NARUTO", "stock": true },
+      { "name": "👤 GUY", "stock": true },
       { "name": "✨ DAZZLE", "stock": true },
-      { "name": "🍒 Тамбовский тони вишня на коньяке", "stock": true },
-      { "name": "🍓 Тульский ром клубнично-малиновая конфета", "stock": true }
+      { "name": "⚡ MINATO", "stock": true },
+      { "name": "👁️ KAKASHI", "stock": true },
+      { "name": "🍓 Тульский ром клубнично-малиновая конфета", "stock": true },
+      { "name": "🍒 Тамбовский тони вишня на коньяке", "stock": true }
     ]
   }
 ]
+
